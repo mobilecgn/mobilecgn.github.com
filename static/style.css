@@ -99,8 +99,8 @@ a.subscribe:hover {
 	}
 
 	.header {
-		border-top: 30px solid white;
-		border-bottom: 30px solid black;
+		border-top: 15px solid white;
+		border-bottom: 15px solid black;
 
 		height: 200px;
 		margin: 0 auto;

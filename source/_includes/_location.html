@@ -1,10 +1,10 @@
 {% comment %}
-Please set „googleid“ and „location“ variable before include this file!
+Please assign „googleid“ and „location“ variable before include this file!
 {% endcomment %}
 
-{% assign showurl  = 'http://maps.google.de/maps?q=' + location + '&z=14&iwloc=&output=embed' %}
-{% assign openurl  = 'http://maps.google.de/maps?q=' + location + '&cid=' + googleid %}
-{% assign routeurl = 'http://maps.google.de/maps?daddr=' + location %}
+{% assign showurl  = 'http://maps.google.de/maps?q='     | append: location + '&z=14&iwloc=&output=embed' %}
+{% assign openurl  = 'http://maps.google.de/maps?q='     | append: location | append: '&cid=' + googleid %}
+{% assign routeurl = 'http://maps.google.de/maps?daddr=' | append: location %}
 
 <div class="googlemaps">
 	<a href="{{ openurl }}" target="_blank">OPEN GOOGLE MAPS</a>

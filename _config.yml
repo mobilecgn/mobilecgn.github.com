@@ -4,3 +4,11 @@ permalink: /:year-:month-:day-:title.html
 safe: true
 lsi: false
 pygments: true
+
+title: mobile.cologne
+tagline: user group for ios, android, html5 & co.
+author:
+  name: mobile.cologne
+  email: spam@mobilecologne.de
+
+production_url : http://mobilecgn.github.com

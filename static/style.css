@@ -100,7 +100,7 @@ a.subscribe:hover {
 
 	.header {
 		border-top: 15px solid white;
-		border-bottom: 15px solid black;
+		border-bottom: 5px solid black;
 
 		height: 200px;
 		margin: 0 auto;
@@ -111,11 +111,16 @@ a.subscribe:hover {
 		background-position: center 0px;
 	}
 
+	.header a.logo {
+		display: block;
+		height: 200px;
+	}
+
 	.header.container {
 	}
 
 	.navigation {
-		border-top: 20px solid white;
+		border-top: 12px solid white;
 		border-bottom: 1px solid #d4d4d4;
 		background-color: white;
 	}
@@ -125,7 +130,7 @@ a.subscribe:hover {
 	
 	.navigation .active, .navigation .active:hover, .navigation .inactive:hover {
 		color: black;
-		line-height: 30px;
+		line-height: 28px;
 		text-align: center;
 		text-decoration: none;
 		border-bottom: 1px solid black;
@@ -133,7 +138,7 @@ a.subscribe:hover {
 
 	.navigation .inactive {
 		color: gray;
-		line-height: 30px;
+		line-height: 28px;
 		text-align: center;
 		text-decoration: none;
 		border-bottom: 1px solid white;
@@ -212,8 +217,8 @@ a.subscribe:hover {
 
 	.header {
 		background-color: white;
-		border-top: 20px solid white;
-		border-bottom: 20px solid black;
+		border-top: 10px solid white;
+		border-bottom: 5px solid black;
 
 		height: 120px;
 		margin: 0 auto;
@@ -221,6 +226,11 @@ a.subscribe:hover {
 		background-repeat: no-repeat;
 		background-size: 320px 120px;
 		background-position: center 0px;
+	}
+
+	.header a.logo {
+		display: block;
+		height: 120px;
 	}
 
 	.navigation {

@@ -1,0 +1,246 @@
+/*
+ * verwendete farben: white black #E01F1F
+ */
+* {
+	font-family: 'Dosis', 'Arial', sans-serif;
+}
+
+body {
+	font-family: 'Dosis', 'Arial', sans-serif;
+	font-size: 100%;
+}
+
+.x-container {
+	background-image:url(/static/blueprint/src/grid.png);
+}
+
+h1 {
+	color: #E01F1F;
+	font-size: 2em;
+	line-height: 1;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	color: #E01F1F;
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	color: #E01F1F;
+	font-size: 1.2em;
+	line-height: 1;
+	margin-bottom: 0.5em;
+}
+
+a {
+	color: #E01F1F;
+}
+
+a:hover {
+	color: #a11919;
+}
+
+a.subscribe {
+	text-align: center;
+	color: white;
+	background-color: #E01F1F;
+	font-size: 0.9em;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+a.subscribe:hover {
+	color: white;
+	background-color: #a11919;
+}
+
+.evenodd > :nth-child(even) {
+	background: #e5ecf9;
+}
+
+.googlemaps {
+	margin-bottom: 10px;
+}
+
+.googlemaps iframe {
+	display: block;
+	width: 590px;
+	height: 150px;
+}
+
+.googlemaps a {
+	display: block;
+	position: absolute;
+	width: 590px;
+	height: 150px;
+	border: 2px solid #000000;
+	color: transparent;
+	background-color: transparent;
+	line-height: 150px;
+	text-align: center;
+}
+
+.googlemaps a:hover {
+	border: 2px solid #E01F1F;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media all and (min-width: 960px) {
+	body {
+		background-color: #d9d9d9;
+	}
+
+	.title {
+		color: rgba(0, 0, 0, 0);
+		display: none;
+	}
+
+	.header {
+		border-top: 30px solid white;
+		border-bottom: 30px solid black;
+
+		height: 200px;
+		margin: 0 auto;
+		background-color: white;
+		background-image: url(images/Logo-fullsize.png);
+		background-repeat: no-repeat;
+		background-size: 980px 200px;
+		background-position: center 0px;
+	}
+
+	.header.container {
+	}
+
+	.navigation {
+		border-top: 20px solid white;
+		border-bottom: 1px solid #d4d4d4;
+		background-color: white;
+	}
+
+	.navigation .container {
+	}
+	
+	.navigation .active, .navigation .active:hover, .navigation .inactive:hover {
+		color: black;
+		line-height: 30px;
+		text-align: center;
+		text-decoration: none;
+		border-bottom: 1px solid black;
+	}
+
+	.navigation .inactive {
+		color: gray;
+		line-height: 30px;
+		text-align: center;
+		text-decoration: none;
+		border-bottom: 1px solid white;
+	}
+
+	/*
+	number highlight wie in macosx dock?!
+
+	.navigation a {
+		height: 30px;
+	}
+	.navigation a .text {
+		position: absolute;
+		margin-left: -15px;
+	}
+	.navigation a .count {
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		font-size: 0.8em;
+		font-weight: bold;
+		line-height: 26px;
+		margin-top: -10px;
+		margin-left: -35px;
+		color: white;
+		background-color: rgba(255, 0, 0, .6);
+		border: 1px dotted white;
+		border-radius: 20px;
+	}
+	.navigation a:hover .count {
+		background-color: rgba(255, 0, 0, 1);
+	}
+	*/
+
+	.content {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: white;
+	}
+
+	.content .container {
+	}
+
+	.footer {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #d9d9d9;
+	}
+
+	.footer .container {
+		background-color: #d9d9d9;
+	}
+
+	.footer .container span {
+		color: gray;
+		font-size: 20px;
+	}
+
+	.footer .container a {
+		color: gray;
+		font-size: 0.8em;
+	}
+}
+
+@media all and (max-width: 960px) {
+	.googlemaps iframe, .googlemaps a {
+		width: 290px;
+		height: 100px;
+		line-height: 100px;
+	}
+
+	.title {
+		color: rgba(0, 0, 0, 0);
+		display: none;
+	}
+
+	.header {
+		background-color: white;
+		border-top: 20px solid white;
+		border-bottom: 20px solid black;
+
+		height: 120px;
+		margin: 0 auto;
+		background-image: url(images/Logo-middle.png);
+		background-repeat: no-repeat;
+		background-size: 320px 120px;
+		background-position: center 0px;
+	}
+
+	.navigation {
+		padding: 10px;
+	}
+
+	.navigation a {
+		padding-right: 5px;
+	}
+
+	.content {
+		padding: 10px;
+	}
+
+	.footer {
+		padding: 10px;
+	}
+
+	img.span-2 {
+		width: 70px;
+	}
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+	<meta name="robots" content="index,follow" />
+	{% if page.url == '/index.html' %}
+	<meta name="description" content="Wir wollen Brücken zwischen den mobilen Plattformen schlagen. Es soll das „große Ganze“ der mobilen Software-Entwicklung und dessen Synergien beleuchten werden." />
+	<meta name="keywords" content="mobile, cologne, mobil, köln, ios, iphone, ipod, ipad, android, html5, javascript, js, java, blackberry, windows mobile, user group, vorträge, lightning talks, stammtisch" />
+	{% endif %}
+
+	<!-- Framework CSS -->
+	<link href="/static/blueprint/src/reset.css" rel="stylesheet" type="text/css">
+	<link href="/static/blueprint/src/typography.css" rel="stylesheet" type="text/css">
+	<link href="/static/blueprint/src/forms.css" rel="stylesheet" type="text/css">
+	<link href="/static/blueprint/src/grid.css" rel="stylesheet" type="text/css" media="screen and (min-width: 980px)">
+	<!--[if lt IE 8]>
+	<link href="/static/blueprint/ie.css" rel="stylesheet" type="text/css" media="screen and (min-width: 980px)">
+	<![endif]-->
+
+	<!-- Font awesome -->
+	<!--
+	<link rel="stylesheet" href="/static/Font-Awesome/css/bootstrap.css">
+	<link rel="stylesheet" href="/static/Font-Awesome/css/font-awesome.css">
+	-->
+
+	<!-- Lightbox -->
+	<link href="/static/lightbox/css/lightbox.css" rel="stylesheet" type="text/css">
+
+	<link href="/static/style.css" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Dosis:400,500,700,800" rel="stylesheet" type="text/css">
+
+	<script src="/static/jquery-1.7.2.min.js" type="text/javascript"></script>
+	<script src="/static/lightbox/js/lightbox.js" type="text/javascript"></script>
+	<script src="/static/dynamic.js" type="text/javascript"></script>
+</head>
+<body>
+
+<a href="/">
+	<div class="header">
+		<div class="container">
+			<div class="span-20">
+				<h1 class="title">mobile.cologne</h1>
+			</div>
+		</div>
+	</div>
+</a>
+
+<div class="navigation">
+	<div class="container">
+		<div class="span-24">
+			<a href="/" class="span-3 {% if page.url == '/index.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Home</a>
+			<a href="/termine.html" class="span-3 {% if page.url == '/termine.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Termine</a>
+			<a href="/lightningtalks.html" class="span-3 {% if page.url == '/lightningtalks.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Mitmachen</a>
+			<a href="/sponsoren.html" class="span-3 {% if page.url == '/sponsoren.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Sponsoren</a>
+			<a href="/kontakt.html" class="span-3 {% if page.url == '/kontakt.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %} last">Kontakt</a>
+		</div>
+	</div>
+</div>
+
+{{ content }}
+
+<div class="footer">
+	<div class="container">
+		<div class="span-20">
+			<span style="color: #a6a6a6;">mobile.</span><span style="color: #858585;">cologne</span>
+			<span style="color: #a6a6a6; font-size: 0.9em; padding-left: 10px;">Made with love in Cologne</span>
+		</div>
+		<div class="span-4 last" style="text-align: right">
+			<a href="/kontakt.html" style="font-weight: bold;">Kontakt</a><br/>
+			<a href="/impressum.html">Impressum</a>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-31041522-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</body>
+</html>

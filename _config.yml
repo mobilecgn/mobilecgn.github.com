@@ -1,0 +1,6 @@
+source: source
+destination: output
+permalink: /:year-:month-:day-:title.html
+safe: true
+lsi: false
+pygments: true

@@ -1,0 +1,14 @@
+{% comment %}
+Please set „googleid“ and „location“ variable before include this file!
+{% endcomment %}
+
+{% assign showurl  = 'http://maps.google.de/maps?q=' + location + '&z=14&iwloc=&output=embed' %}
+{% assign openurl  = 'http://maps.google.de/maps?q=' + location + '&cid=' + googleid %}
+{% assign routeurl = 'http://maps.google.de/maps?daddr=' + location %}
+
+<div class="googlemaps">
+	<a href="{{ openurl }}" target="_blank">OPEN GOOGLE MAPS</a>
+	<iframe src="{{ showurl }}">{{ location }}</iframe>
+	<div class="clearfix"></div>
+</div>
+<a href="{{ routeurl }}" target="_blank">Routenplaner</a>

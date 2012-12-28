@@ -1,9 +1,8 @@
-source: source
-destination: output
-permalink: /:year-:month-:day-:title.html
 safe: true
 lsi: false
 pygments: true
+
+permalink: /:year-:month-:day-:title.html
 
 title: mobile.cologne
 tagline: user group for ios, android, html5 & co.
@@ -12,3 +11,4 @@ author:
   email: spam@mobilecologne.de
 
 production_url : http://mobilecgn.github.com
+

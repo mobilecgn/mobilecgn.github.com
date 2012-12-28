@@ -29,20 +29,19 @@ title: mobile.cologne - Warum?
 
 
 	</div>
-
-	<div class="span-10 last">
-		<h2>Themen Rückblick</h2>
-		<a href="/2012-09-13-vortragsabend.html" class="rueckblick" title="Model-driven mobile development - von Maxim Zaks">MDD</a>
-		<a href="/2012-06-14-vortragsabend.html" class="rueckblick" title="Mobile Natural User Interface - vom Wischen, Tappen und Sprechen">NUI</a>
-		<a href="/2012-07-12-vortragsabend.html" class="rueckblick" title="Native gegen Web war gestern">Hybrid-Apps</a>
-		<a href="/2012-11-08-vortragsabend.html" class="rueckblick" title="RubyMotion Introduction, iOS meets Ruby">RubyMotion</a>
-		<a href="/2012-06-14-vortragsabend.html" class="rueckblick" title="Debugging von mobilen Webseiten (und Webviews)">Debugging</a>
-		<br/>
-
-		<a href="/2012-07-12-vortragsabend.html" class="rueckblick" title="Neues aus Cupertino, frische Eindrücke von der WWDC">WWDC</a>
-		<a href="/2012-10-11-vortragsabend.html" class="rueckblick" title="Performance optimierungen für mobile web">Performance</a>
-		<a href="/2012-06-14-vortragsabend.html" class="rueckblick" title="Neo4OC - Neo4j Graphdatenbank mit Objective-C">Neo4OC</a>
-		<a href="/2012-11-08-vortragsabend.html" class="rueckblick" title="Plattformübergreifende Apps entwickeln mit Kivy und Python">Kivy</a>
-		<a href="/2012-07-12-vortragsabend.html" class="rueckblick" title="Surfing the API: RESTful Hypermedia">RESTful</a>
+	<div class="span-8 last">
+		<h3>Themen <span class="loud">Rückblick</span></h3>
+		<ul style="list-style-type: lower-roman;">
+			{% for post in site.posts reversed %}
+				{% if post.themen %}
+					{% assign themen = post.themen | split: ';' %}
+					{% for thema in themen %}
+						<li style="{% if post.url == page.url %}{{ 'background: #e5ecf9; padding-left: -20px; left: 20px;' }}{% endif %}">
+							<a href="{{ post.url }}">{{ thema }}</a><br/>
+						</li>
+					{% endfor %}
+				{% endif %}
+			{% endfor %}
+		</ul>
 	</div>
 </div>

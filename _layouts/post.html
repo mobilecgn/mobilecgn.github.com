@@ -10,10 +10,10 @@ layout: default
 		</div>
 
 		<div>
-			{% assign pd = page.date | date: '%Y-%m-%d' %}
-			{% assign now = 'now' | date: '%Y-%m-%d' %}
+			{% assign pageDateString = page.date | date: '%Y-%m-%d' %}
+			{% assign nowDateString = 'now' | date: '%Y-%m-%d' %}
 
-			{% if pd < now %}
+			{% if pageDateString < nowDateString %}
 			<h1>Rückblick {{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>
 			{% else %}
 			<h1>{{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>

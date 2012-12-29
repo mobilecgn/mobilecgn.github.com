@@ -9,17 +9,6 @@ layout: default
 			{% include _sidebar_surrounding_events.html %}
 		</div>
 
-
-		page.date:
-		{{ page.date | date: '%Y-%m-%d' }}
-		<br/>
-		now as date:
-		{{ 'now' | date: '%Y-%m-%d' }}
-		<br/>
-		site.time:
-		{{ site.time | date: '%Y-%m-%d' }}
-		<br/>
-
 		<div>
 			{% assign pageDateString = page.date | date: '%Y-%m-%d' %}
 			{% assign siteTimeString = site.time | date: '%Y-%m-%d' %}

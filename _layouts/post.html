@@ -9,11 +9,22 @@ layout: default
 			{% include _sidebar_surrounding_events.html %}
 		</div>
 
-		<div>
-			{% assign pageDateString = page.date | date: '%Y-%m-%d' | escape %}
-			{% assign nowDateString = 'now' | date: '%Y-%m-%d' | escape %}
 
-			{% if pageDateString < nowDateString %}
+		page.date:
+		{{ page.date | date: '%Y-%m-%d' }}
+		<br/>
+		now as date:
+		{{ 'now' | date: '%Y-%m-%d' }}
+		<br/>
+		site.time:
+		{{ site.time | date: '%Y-%m-%d' }}
+		<br/>
+
+		<div>
+			{% assign pageDateString = page.date | date: '%Y-%m-%d' %}
+			{% assign siteTimeString = site.time | date: '%Y-%m-%d' %}
+
+			{% if pageDateString < siteTimeString %}
 			<h1>Rückblick {{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>
 			{% else %}
 			<h1>{{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>

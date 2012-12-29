@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{ page.title }}</title>
+	<title>{{ page.title }} - mobile.cologne</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -57,17 +57,13 @@
 			<a href="/about.html" class="span-3 {% if page.url == '/about.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Themen</a>
 			<a href="/termine.html" class="span-3 {% if page.url == '/termine.html' or page.url < '/a' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Termine</a>
 			<a href="/lightningtalks.html" class="span-3 {% if page.url == '/lightningtalks.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Mitmachen</a>
-			<a href="/sponsoren.html" class="span-3 {% if page.url == '/sponsoren.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Sponsoren</a>
-			<a href="/kontakt.html" class="span-3 {% if page.url == '/kontakt.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %} last">Kontakt</a>
+			<a href="/sponsoren.html" class="span-3 {% if page.url == '/sponsoren.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Unterstützen</a>
+			<a href="/kontakt.html" class="span-3 {% if page.url == '/kontakt.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Kontakt</a>
 		</div>
 	</div>
 </div>
 
-<div class="content">
-	<div class="container">
-		{{ content }}
-	</div>
-</div>
+{{ content }}
 
 <div class="footer">
 	<div class="container">

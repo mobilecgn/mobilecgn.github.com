@@ -2,3 +2,25 @@
 layout: default
 ---
 
+<div class="content">
+	<div class="container">
+
+		<div class="right">
+			{% include _sidebar_surrounding_events.html %}
+		</div>
+
+		<div>
+			{% assign pd = page.date | date: '%Y-%m-%d' %}
+			{% assign now = 'now' | date: '%Y-%m-%d' %}
+
+			{% if pd < now %}
+			<h1>Rückblick {{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>
+			{% else %}
+			<h1>{{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>
+			{% endif %}
+
+			{{ content }}
+		</div>
+
+	</div>
+</div>

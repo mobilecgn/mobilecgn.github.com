@@ -1,198 +1,192 @@
 ---
-layout: default
-title: 14.06.2012 - Lightning Talks - mobile.cologne
+layout: post
+title: Lightning Talks
 themen: Neo4OC - Neo4j Graphdatenbank mit Objective-C; Debugging von mobilen Webseiten (und Webviews); Mobile Natural User Interface - vom Wischen, Tappen und Sprechen
 all_events_title: Lightning Talks
 all_events_text: Do. 14. Juni 2012 im cowoco
 ---
 
-<div class="span-15 colborder">
-	<h1>Rückblick 14.06.2012 <span class="loud">- Lightning Talks</span></h1>
-	<p>
-		Nachdem wir den Kick-Off bei einem Stammtisch gefeiert haben,
-		wollen wir euch nun zum ersten Talk-Abend einladen.
-		Am 14. Juni ist es soweit. Wir laden euch herzlich in den cowoco
-		(Coworking-Space Gasmotorenfabrik) zum Lightning-Talk Abend ein.
-		<!--
-		<br/><br/>
-		Falls euch Themen einfallen, die Ihr gerne selber Vortragen möchtet:
-		schreibt uns eine Mail an spam&nbsp;(at)&nbsp;mobilecologne.de
-		-->
-	</p>
-
+<p>
+	Nachdem wir den Kick-Off bei einem Stammtisch gefeiert haben,
+	wollen wir euch nun zum ersten Talk-Abend einladen.
+	Am 14. Juni ist es soweit. Wir laden euch herzlich in den cowoco
+	(Coworking-Space Gasmotorenfabrik) zum Lightning-Talk Abend ein.
 	<!--
-	<p>
-		<h3>Agenda</h3>
-		<table style="margin-top: 0;">
-			<tr>
-				<td class="span-2">19:00 Uhr</td>
-				<td>Opening (Warmlaufen / Kennenlernen / Networking)</td>
-			</tr>
-			<tr>
-				<td class="span-2">19:25 Uhr</td>
-				<td>Verlosung</td>
-			</tr>
-			<tr>
-				<td class="span-2">19:30 Uhr</td>
-				<td>Vorträge / Lightning Talks</td>
-			</tr>
-			<tr>
-				<td class="span-2">danach</td>
-				<td>
-					Diskutieren, austauschen, Bier trinken, etc.
-				</td>
-			</tr>
-		</table>
-	</p>
+	<br/><br/>
+	Falls euch Themen einfallen, die Ihr gerne selber Vortragen möchtet:
+	schreibt uns eine Mail an spam&nbsp;(at)&nbsp;mobilecologne.de
 	-->
+</p>
 
+<!--
+<p>
+	<h3>Agenda</h3>
+	<table style="margin-top: 0;">
+		<tr>
+			<td class="span-2">19:00 Uhr</td>
+			<td>Opening (Warmlaufen / Kennenlernen / Networking)</td>
+		</tr>
+		<tr>
+			<td class="span-2">19:25 Uhr</td>
+			<td>Verlosung</td>
+		</tr>
+		<tr>
+			<td class="span-2">19:30 Uhr</td>
+			<td>Vorträge / Lightning Talks</td>
+		</tr>
+		<tr>
+			<td class="span-2">danach</td>
+			<td>
+				Diskutieren, austauschen, Bier trinken, etc.
+			</td>
+		</tr>
+	</table>
+</p>
+-->
+
+<p>
+	<h3>Themen</h3>
+	<ul style="margin: 0px;">
+		<li>
+			Neo4OC - Neo4j Graphdatenbank mit Objective-C<br/>
+			Maxim Zaks
+		</li>
+		<li>
+			Debugging von mobilen Webseiten (und Webviews)<br/>
+			Jörg Vanderhoeven
+		</li>
+		<li>
+			Mobile Natural User Interface - vom Wischen, Tappen und Sprechen<br/>
+			Dominique Winter
+		</li>
+	</ul>
+</p>
+
+<!--
+<p>
+	<h3>Anmeldung</h3>
+	Für eine grobe Planung würden wir uns freuen, wenn ihr euch auf einer der folgenden
+	praktischen* Plattformen anmelden würdet:
+
+	<ul style="margin: 0px;">
+		<li><a href="http://www.doodle.com/55f7xz39yhphzmwb">Doodle</a> &nbsp; (verstecke Anmeldung, Namen werden nicht veröffentlicht)</li>
+		<li><a href="http://hcking.de/events/105-mobile-cologne/dates/598">hcking</a> &nbsp; (Eventkalender für Hacker in Köln und Umgebung)</li>
+		<li><a href="https://www.xing.com/events/mobile-cologne-lightning-talks-1096351">Xing</a></li>
+	</ul>
+</p>
+<p class="small">
+	(*netterweise könnt ihr alle diese Plattformen auch in euren Terminkalender einbinden...)
+</p>
+
+{% include _location_cowoco.html %}
+-->
+
+<h2>Rückblick</h2>
+<p>
+	Nochmals vielen Dank an unsere Vortragendenen,
+	den <a href="http://cowoco.heroku.com/spaces/3" target="_blank">Coworking-Space in der Gasmotorenfabrik</a>,
+	sowie unsere Sponsoren.<br/><br/>
+	Für die weitere Recherche, und alle Interessierte die nicht da sein konnten,
+	hier alle Projektlinks, einige Stichpunkte, etc.
+</p>
+
+<h3 class="thistogglenext">Maxim Zaks über Neo4OC - Neo4j Graphdatenbank mit Objective-C</h3>
+<section>
+	<ul>
+		<li>Eine gute Einführung in Graphendatenbank auf
+			<a href="http://www.youtube.com/watch?v=nJmGrNdJ5Gw" target="_blank">Youtube</a></li>
+		<li><a href="http://neo4j.org/" target="_blank">Neo4J</a>
+			ist eine Graphendatenbank, die ihre Vorteil dann ausspielen kann,
+			wenn auch die Daten in Graphen gespeichert werden, also die interessanten
+			Informationen in den Datenrelationen liegen</li>
+		<li>NEO4J hat eigene sehr mächtige Query Language für Knoten und Kante</li>
+		<li>Daten (beliebiger Tiefe) werden als Knoten oder als Kante gespeichert</li>
+		<li>Implementiert in Java und daher in JEE und Android Apps direkt als Library nutzbar</li>
+		<li>In-Memory alternative zu ORM mit SQLite</li>
+		<li>Gibt es als einfachen Rest-Webserver</li>
+		<li>Eigene <a href="https://github.com/mzaks/NEO4OC" target="_blank">Neo4OC</a>
+			(github) Implementierung für Objective C verwendet diese REST-Schnittstelle
+			(<a href="https://github.com/mzaks/NEO4OC-Specs" target="_blank">Spec/Test-Projekt</a>, github)</li>
+		<li>Relationen werden als Kanten gespeichert</li>
+	</ul>
+</section>
+
+<h3 class="thistogglenext">Jörg Vanderhoeven über Debugging von mobilen Webseiten (und Webviews)</h3>
+<section>
 	<p>
-		<h3>Themen</h3>
-		<ul style="margin: 0px;">
-			<li>
-				Neo4OC - Neo4j Graphdatenbank mit Objective-C<br/>
-				Maxim Zaks
-			</li>
-			<li>
-				Debugging von mobilen Webseiten (und Webviews)<br/>
-				Jörg Vanderhoeven
-			</li>
-			<li>
-				Mobile Natural User Interface - vom Wischen, Tappen und Sprechen<br/>
-				Dominique Winter
-			</li>
-		</ul>
+		Jörg hat uns netterweise direkt einige richtig coole Developer Tools vorgestellt:
 	</p>
-
-	<!--
 	<p>
-		<h3>Anmeldung</h3>
-		Für eine grobe Planung würden wir uns freuen, wenn ihr euch auf einer der folgenden
-		praktischen* Plattformen anmelden würdet:
-
-		<ul style="margin: 0px;">
-			<li><a href="http://www.doodle.com/55f7xz39yhphzmwb">Doodle</a> &nbsp; (verstecke Anmeldung, Namen werden nicht veröffentlicht)</li>
-			<li><a href="http://hcking.de/events/105-mobile-cologne/dates/598">hcking</a> &nbsp; (Eventkalender für Hacker in Köln und Umgebung)</li>
-			<li><a href="https://www.xing.com/events/mobile-cologne-lightning-talks-1096351">Xing</a></li>
-		</ul>
-	</p>
-	<p class="small">
-		(*netterweise könnt ihr alle diese Plattformen auch in euren Terminkalender einbinden...)
-	</p>
-
-	{% include _location_cowoco.html %}
-	-->
-
-	<h2>Rückblick</h2>
-	<p>
-		Nochmals vielen Dank an unsere Vortragendenen,
-		den <a href="http://cowoco.heroku.com/spaces/3" target="_blank">Coworking-Space in der Gasmotorenfabrik</a>,
-		sowie unsere Sponsoren.<br/><br/>
-		Für die weitere Recherche, und alle Interessierte die nicht da sein konnten,
-		hier alle Projektlinks, einige Stichpunkte, etc.
-	</p>
-
-	<h3 class="thistogglenext">Maxim Zaks über Neo4OC - Neo4j Graphdatenbank mit Objective-C</h3>
-	<section>
+		<b>Apache Weinre</b>
 		<ul>
-			<li>Eine gute Einführung in Graphendatenbank auf
-				<a href="http://www.youtube.com/watch?v=nJmGrNdJ5Gw" target="_blank">Youtube</a></li>
-			<li><a href="http://neo4j.org/" target="_blank">Neo4J</a>
-				ist eine Graphendatenbank, die ihre Vorteil dann ausspielen kann,
-				wenn auch die Daten in Graphen gespeichert werden, also die interessanten
-				Informationen in den Datenrelationen liegen</li>
-			<li>NEO4J hat eigene sehr mächtige Query Language für Knoten und Kante</li>
-			<li>Daten (beliebiger Tiefe) werden als Knoten oder als Kante gespeichert</li>
-			<li>Implementiert in Java und daher in JEE und Android Apps direkt als Library nutzbar</li>
-			<li>In-Memory alternative zu ORM mit SQLite</li>
-			<li>Gibt es als einfachen Rest-Webserver</li>
-			<li>Eigene <a href="https://github.com/mzaks/NEO4OC" target="_blank">Neo4OC</a>
-				(github) Implementierung für Objective C verwendet diese REST-Schnittstelle
-				(<a href="https://github.com/mzaks/NEO4OC-Specs" target="_blank">Spec/Test-Projekt</a>, github)</li>
-			<li>Relationen werden als Kanten gespeichert</li>
+			<li>Bestandteil des Apache Cordova (ehemals Phonegap) Projektes</li>
+			<li>JavaScript Remote Debugger, Webinspektor, Local Storage, AJAX Requests sehen</li>
+			<li>Aktuell im incubator Status und daher verteilt auf einige Seiten:
+				<a href="https://github.com/apache/incubator-cordova-weinre" target="_blank">github</a>
+				<a href="http://people.apache.org/~pmuellr/weinre/" target="_blank">Download und Doc</a>
+			</li>
+			<li>Bedingung im selben Netz, dafür Kabel ungebunden</li>
+			<li>Öffentliche Demo-Instanz auf
+				<a href="http://debug.phonegap.com/" target="_blank">debug.phonegap.com</a>
+			</li>
 		</ul>
-	</section>
+	</p>
 
-	<h3 class="thistogglenext">Jörg Vanderhoeven über Debugging von mobilen Webseiten (und Webviews)</h3>
-	<section>
-		<p>
-			Jörg hat uns netterweise direkt einige richtig coole Developer Tools vorgestellt:
-		</p>
-		<p>
-			<b>Apache Weinre</b>
-			<ul>
-				<li>Bestandteil des Apache Cordova (ehemals Phonegap) Projektes</li>
-				<li>JavaScript Remote Debugger, Webinspektor, Local Storage, AJAX Requests sehen</li>
-				<li>Aktuell im incubator Status und daher verteilt auf einige Seiten:
-					<a href="https://github.com/apache/incubator-cordova-weinre" target="_blank">github</a>
-					<a href="http://people.apache.org/~pmuellr/weinre/" target="_blank">Download und Doc</a>
-				</li>
-				<li>Bedingung im selben Netz, dafür Kabel ungebunden</li>
-				<li>Öffentliche Demo-Instanz auf
-					<a href="http://debug.phonegap.com/" target="_blank">debug.phonegap.com</a>
-				</li>
-			</ul>
-		</p>
+	<p>
+		<b>Adobe Shadow</b>
+		<ul>
+			<li>
+				<a href="http://labs.adobe.com/technologies/shadow/" target="_blank">Homepage</a>
+				<a href="http://labs.adobe.com/downloads/shadow.html" target="_blank">Download</a>
+			</li>
+			<li>Komfortableres Weinre</li>
+			<li>Im Chrome angesürfte Seiten werden direkt an alle gebundenen Geräte übertragen</li>
+			<li>Benötigt dafür aber Chrome Extension sowie Container nur iOS und Android</li>
+			<li>Wird vermutlich irgendwann kommerziell</li>
+		</ul>
+	</p>
 
-		<p>
-			<b>Adobe Shadow</b>
-			<ul>
-				<li>
-					<a href="http://labs.adobe.com/technologies/shadow/" target="_blank">Homepage</a>
-					<a href="http://labs.adobe.com/downloads/shadow.html" target="_blank">Download</a>
-				</li>
-				<li>Komfortableres Weinre</li>
-				<li>Im Chrome angesürfte Seiten werden direkt an alle gebundenen Geräte übertragen</li>
-				<li>Benötigt dafür aber Chrome Extension sowie Container nur iOS und Android</li>
-				<li>Wird vermutlich irgendwann kommerziell</li>
-			</ul>
-		</p>
+	<p>
+		<b>iWebInspector</b>
+		<ul>
+			<li>
+				Homepage:
+				<a href="http://www.iwebinspector.com/" target="_blank">www.iwebinspector.com</a>
+			</li>
+			<li>Natives WebDebugging für den Safari im iPhone und Co. Simulator</li>
+			<li>XCode 4.5 und iOS 6 bieten Remote Debugging direkt in der IDE</li>
+		</ul>
+	</p>
 
-		<p>
-			<b>iWebInspector</b>
-			<ul>
-				<li>
-					Homepage:
-					<a href="http://www.iwebinspector.com/" target="_blank">www.iwebinspector.com</a>
-				</li>
-				<li>Natives WebDebugging für den Safari im iPhone und Co. Simulator</li>
-				<li>XCode 4.5 und iOS 6 bieten Remote Debugging direkt in der IDE</li>
-			</ul>
-		</p>
+	<p>
+		<b>HTTP Mitschneiden</b>
+		<ul>
+			<li>Alternative, insbesondere wenn der Content "kompliziert" (z.B. Geräteabhängig) generiert wird</li>
+			<li>Hier stehen direkt einige Tools für unterschiedliche Plattformen zur Verfügung, z.B.</li>
+			<li><a href="http://www.wireshark.org/" target="_blank">wireshark</a></li>
+			<li><a href="http://www.soapui.org/" target="_blank">soapUI</a></li>
+			<li><a href="http://www.parosproxy.org/" target="_blank">Paros</a></li>
+			<li><a href="http://www.charlesproxy.com/" target="_blank">Charles</a></li>
+			<li><a href="http://filterproxy.sourceforge.net/" target="_blank">FilterProxy</a></li>
+		</ul>
+	</p>
+</section>
 
-		<p>
-			<b>HTTP Mitschneiden</b>
-			<ul>
-				<li>Alternative, insbesondere wenn der Content "kompliziert" (z.B. Geräteabhängig) generiert wird</li>
-				<li>Hier stehen direkt einige Tools für unterschiedliche Plattformen zur Verfügung, z.B.</li>
-				<li><a href="http://www.wireshark.org/" target="_blank">wireshark</a></li>
-				<li><a href="http://www.soapui.org/" target="_blank">soapUI</a></li>
-				<li><a href="http://www.parosproxy.org/" target="_blank">Paros</a></li>
-				<li><a href="http://www.charlesproxy.com/" target="_blank">Charles</a></li>
-				<li><a href="http://filterproxy.sourceforge.net/" target="_blank">FilterProxy</a></li>
-			</ul>
-		</p>
-	</section>
+<h3 class="thistogglenext">Dominique Winter über Mobile Natural User Interface - vom Wischen, Tappen und Sprechen</h3>
+<section>
+	Ein großartiger Talk vom langen Weg von CLI über GUIs zu NUIs.
 
-	<h3 class="thistogglenext">Dominique Winter über Mobile Natural User Interface - vom Wischen, Tappen und Sprechen</h3>
-	<section>
-		Ein großartiger Talk vom langen Weg von CLI über GUIs zu NUIs.
+	<div style="width: 510px" id="__ss_13524785">
+		<strong style="display: block; margin: 12px 0 4px;"><a href="http://www.slideshare.net/designik/mobile-nui" title="Mobile NUI" target="_blank">Mobile NUI</a></strong>
+		<iframe src="http://www.slideshare.net/slideshow/embed_code/13524785" width="510" height="426" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border: 1px solid #CCC; border-width: 1px 1px 0;" allowfullscreen></iframe>
+		<div style="padding:5px 0 12px">View more presentations from <a href="http://www.slideshare.net/designik" target="_blank">designik</a></div>
+	</div>
+</section>
 
-		<div style="width: 510px" id="__ss_13524785">
-			<strong style="display: block; margin: 12px 0 4px;"><a href="http://www.slideshare.net/designik/mobile-nui" title="Mobile NUI" target="_blank">Mobile NUI</a></strong>
-			<iframe src="http://www.slideshare.net/slideshow/embed_code/13524785" width="510" height="426" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border: 1px solid #CCC; border-width: 1px 1px 0;" allowfullscreen></iframe>
-			<div style="padding:5px 0 12px">View more presentations from <a href="http://www.slideshare.net/designik" target="_blank">designik</a></div>
-		</div>
-	</section>
-</div>
-<div class="span-8 last">
-	{% include _sidebar_all_events.html %}
-
-	<h3>Sponsored <span class="loud">by</span></h3>
-	<a href="http://www.oreilly.de/" target="_blank">
-		<img src="/static/images/oreilly.png" style="width: 150px; padding: 20px;" />
-	</a>
-	<a href="http://www.galileocomputing.de/" target="_blank">
-		<img src="/static/images/galileocomputing.gif" style="width: 150px; padding: 20px;" />
-	</a>
-</div>
+<h3>Sponsored <span class="loud">by</span></h3>
+<a href="http://www.oreilly.de/" target="_blank">
+	<img src="/static/images/oreilly.png" style="width: 150px; padding: 20px;" />
+</a>
+<a href="http://www.galileocomputing.de/" target="_blank">
+	<img src="/static/images/galileocomputing.gif" style="width: 150px; padding: 20px;" />
+</a>

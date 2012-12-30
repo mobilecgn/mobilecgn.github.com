@@ -28,8 +28,7 @@ title: Themen
 				<ul style="list-style-type: lower-roman;">
 					{% for post in site.posts reversed %}
 						{% if post.themen %}
-							{% assign themen = post.themen | split: ';' %}
-							{% for thema in themen %}
+							{% for thema in post.themen %}
 								<li style="{% if post.url == page.url %}{{ 'background: #e5ecf9; padding-left: -20px; left: 20px;' }}{% endif %}">
 									<a href="{{ post.url }}">{{ thema }}</a><br/>
 								</li>

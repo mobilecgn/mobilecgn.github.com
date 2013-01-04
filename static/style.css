@@ -89,10 +89,6 @@ a.subscribe:hover {
 }
 
 @media all and (min-width: 960px) {
-	body {
-		background-color: #d9d9d9;
-	}
-
 	.title {
 		color: rgba(0, 0, 0, 0);
 		display: none;
@@ -104,46 +100,38 @@ a.subscribe:hover {
 
 		height: 200px;
 		margin: 0 auto;
-		background-color: white;
 		background-image: url(images/Logo-fullsize.png);
 		background-repeat: no-repeat;
 		background-size: 980px 200px;
 		background-position: center 0px;
 	}
 
-	.header a.logo {
-		display: block;
-		height: 200px;
-	}
-
-	.header.container {
-	}
-
 	.navigation {
-		border-top: 12px solid white;
+		position: relative;
 		border-bottom: 1px solid #d4d4d4;
-		background-color: white;
 	}
 
-	.navigation .container {
+	.navigation .social {
+		height: 32px;
+		padding-top: 4px;
 	}
-	
+
 	.navigation .active, .navigation .active:hover, .navigation .inactive:hover {
 		color: black;
-		line-height: 28px;
 		text-align: center;
 		text-decoration: none;
 		border-bottom: 1px solid black;
 		text-transform: uppercase;
+		padding-top: 16px;
 	}
 
 	.navigation .inactive {
 		color: gray;
-		line-height: 28px;
 		text-align: center;
 		text-decoration: none;
 		border-bottom: 1px solid white;
 		text-transform: uppercase;
+		padding-top: 16px;
 	}
 
 	/*
@@ -178,7 +166,6 @@ a.subscribe:hover {
 	.content {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		background-color: white;
 	}
 
 	.content .container {
@@ -187,10 +174,6 @@ a.subscribe:hover {
 	.footer {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		background-color: #d9d9d9;
-	}
-
-	.footer .container {
 		background-color: #d9d9d9;
 	}
 
@@ -218,7 +201,6 @@ a.subscribe:hover {
 	}
 
 	.header {
-		background-color: white;
 		border-top: 10px solid white;
 		border-bottom: 5px solid black;
 

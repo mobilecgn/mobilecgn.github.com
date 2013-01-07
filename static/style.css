@@ -112,7 +112,7 @@ a.subscribe:hover {
 	}
 
 	.navigation .social {
-		height: 32px;
+		height: 28px;
 		padding-top: 4px;
 	}
 
@@ -122,7 +122,7 @@ a.subscribe:hover {
 		text-decoration: none;
 		border-bottom: 1px solid black;
 		text-transform: uppercase;
-		padding-top: 16px;
+		padding-top: 10px;
 	}
 
 	.navigation .inactive {
@@ -131,7 +131,7 @@ a.subscribe:hover {
 		text-decoration: none;
 		border-bottom: 1px solid white;
 		text-transform: uppercase;
-		padding-top: 16px;
+		padding-top: 10px;
 	}
 
 	/*

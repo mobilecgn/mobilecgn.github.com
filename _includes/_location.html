@@ -6,9 +6,12 @@ Please assign „googleid“ and „location“ variable before include this fil
 {% assign openurl  = 'http://maps.google.de/maps?q='     | append: location | append: '&cid=' + googleid %}
 {% assign routeurl = 'http://maps.google.de/maps?daddr=' | append: location %}
 
+<!--
 <div class="googlemaps">
 	<a href="{{ openurl }}" target="_blank">OPEN GOOGLE MAPS</a>
 	<iframe src="{{ showurl }}">{{ location }}</iframe>
 	<div class="clearfix"></div>
 </div>
+-->
+<a href="{{ openurl }}" target="_blank">GoogleMaps</a> |
 <a href="{{ routeurl }}" target="_blank">Routenplaner</a>

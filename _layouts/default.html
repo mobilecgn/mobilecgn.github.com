@@ -32,11 +32,27 @@
 	<link href="/static/style.css" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Dosis:400,500,700,800" rel="stylesheet" type="text/css">
 
-	<script src="/static/jquery-1.7.2.min.js" type="text/javascript"></script>
-	<script src="/static/lightbox/js/lightbox.js" type="text/javascript"></script>
 	<script src="/static/dynamic.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function createScript(url, onLoad) {
+			var script = document.createElement('script');
+			script.setAttribute('src', url);
+			script.setAttribute('type', 'text/javascript');
+			if (typeof onLoad === 'function') {
+				script.addEventListener('load', onLoad);
+			}
+			return script;
+		}
+		function loadScripts() {
+			document.head.appendChild(createScript('http://maps.googleapis.com/maps/api/js?key=AIzaSyDeLQOXkIR-p-VQ7zJUmCCzpi6bcPzcH3g&sensor=false', function() {
+
+			}));
+			document.head.appendChild(createScript('/static/jquery-1.7.2.min.js'));
+			document.head.appendChild(createScript('/static/lightbox/js/lightbox.js'));
+		}
+	</script>
 </head>
-<body>
+<body onload="try { loadScripts(); } catch (e) { alert(e); }">
 
 <a href="/">
 	<div class="header" style="display: block;"></div>

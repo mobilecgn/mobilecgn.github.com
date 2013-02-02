@@ -1,17 +1,24 @@
-{% comment %}
-Please assign „googleid“ and „location“ variable before include this file!
-{% endcomment %}
+{% assign openurl  = 'http://maps.google.de/maps?q='     | append: location | append: '&cid=' | append: googleid %}
+{% assign routeurl = 'http://maps.google.de/maps?daddr=' | append: location | append: '&cid=' | append: googleid %}
 
-{% assign showurl  = 'http://maps.google.de/maps?q='     | append: location + '&z=14&iwloc=&output=embed' %}
-{% assign openurl  = 'http://maps.google.de/maps?q='     | append: location | append: '&cid=' + googleid %}
-{% assign routeurl = 'http://maps.google.de/maps?daddr=' | append: location %}
-
-<!--
 <div class="googlemaps">
 	<a href="{{ openurl }}" target="_blank">OPEN GOOGLE MAPS</a>
-	<iframe src="{{ showurl }}">{{ location }}</iframe>
+	<div id="googlemaps"></div>
 	<div class="clearfix"></div>
 </div>
--->
-<a href="{{ openurl }}" target="_blank">GoogleMaps</a> |
+<a href="{{ openurl }}" target="_blank">GoogleMaps</a> &nbsp; | &nbsp;
 <a href="{{ routeurl }}" target="_blank">Routenplaner</a>
+
+<script type="text/javascript">
+	function initializeGoogleMaps() {
+		var mapOptions = {
+			zoom: 15,
+			center: new google.maps.LatLng( {{ latitude }}, {{ longitude }} ),
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+		var map = new google.maps.Map(document.getElementById("googlemaps"), mapOptions);
+
+		var transitLayer = new google.maps.TransitLayer();
+		transitLayer.setMap(map);
+	}
+</script>

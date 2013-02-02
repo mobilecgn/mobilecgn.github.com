@@ -44,9 +44,7 @@
 			return script;
 		}
 		function loadScripts() {
-			document.head.appendChild(createScript('http://maps.googleapis.com/maps/api/js?key=AIzaSyDeLQOXkIR-p-VQ7zJUmCCzpi6bcPzcH3g&sensor=false', function() {
-
-			}));
+			document.head.appendChild(createScript('http://maps.googleapis.com/maps/api/js?key=AIzaSyDeLQOXkIR-p-VQ7zJUmCCzpi6bcPzcH3g&sensor=false&callback=initializeGoogleMaps'));
 			document.head.appendChild(createScript('/static/jquery-1.7.2.min.js'));
 			document.head.appendChild(createScript('/static/lightbox/js/lightbox.js'));
 		}

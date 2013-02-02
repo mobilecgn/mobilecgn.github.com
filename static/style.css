@@ -64,28 +64,29 @@ a.subscribe:hover {
 	margin-bottom: 10px;
 }
 
-.googlemaps iframe {
+.googlemaps > #googlemaps {
 	display: block;
-	width: 590px;
-	height: 150px;
+	width: 950px;
+	height: 250px;
 }
 
-.googlemaps a {
+.googlemaps > a {
 	display: block;
 	position: absolute;
-	width: 590px;
-	height: 150px;
-	border: 2px solid #000000;
+	width: 950px;
+	height: 250px;
+	border: 1px solid #000000;
 	color: transparent;
 	background-color: transparent;
-	line-height: 150px;
+	line-height: 250px;
 	text-align: center;
+	z-index: 1;
 }
 
-.googlemaps a:hover {
-	border: 2px solid #E01F1F;
+.googlemaps > a:hover {
+	border: 1px solid #E01F1F;
 	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 @media all and (min-width: 960px) {
@@ -189,10 +190,11 @@ a.subscribe:hover {
 }
 
 @media all and (max-width: 960px) {
-	.googlemaps iframe, .googlemaps a {
+	.googlemaps > #googlemaps, .googlemaps > a {
 		width: 290px;
 		height: 100px;
 		line-height: 100px;
+		z-index: 1;
 	}
 
 	.title {

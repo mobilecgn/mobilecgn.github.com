@@ -22,5 +22,15 @@ layout: default
 			{{ content }}
 		</div>
 
+		{% if page.previous %}
+		<div class="prev">
+			<a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&lt;</a>
+		</div>
+		{% endif %}
+		{% if page.next %}
+		<div class="next">
+			<a href="{{ page.next.url }}" title="{{ page.next.title }}">&gt;</a>
+		</div>
+		{% endif %}
 	</div>
 </div>

@@ -37,7 +37,7 @@
 	<script src="/static/dynamic.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-			if ($('#googlemaps').length) {
+			if ($('#googlemaps').length && document.location.hostname !== 'localhost') {
 				var script = document.createElement('script');
 				script.setAttribute('src', 'http://maps.googleapis.com/maps/api/js?key=AIzaSyDeLQOXkIR-p-VQ7zJUmCCzpi6bcPzcH3g&sensor=false&callback=initializeGoogleMaps');
 				script.setAttribute('type', 'text/javascript');

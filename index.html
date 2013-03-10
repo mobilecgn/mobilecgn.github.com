@@ -4,51 +4,39 @@ title: user group for ios, android, html5
 ---
 
 <style type="text/css">
-	.rueckblick-a, .rueckblick-b, .rueckblick-c, .rueckblick-d {
+	.event-teaser .date {
+		position: absolute;
 		display: inline-block;
+		margin-left: -10px;
+		padding: 5px;
+		color: white;
+		background-color: #E01F1F;
+		transform: rotate(-2deg);
+		-webkit-transform: rotate(-2deg);
+		-ms-transform: rotate(-2deg);
+		-o-transform: rotate(-2deg);
+		-moz-transform: rotate(-2deg);
+	}
+	.event-teaser .location {
+		display: inline-block;
+		margin-top: 40px;
+		margin-left: 10px;
+		padding: 5px;
 		color: white;
 		background-color: black;
-		padding-left: 5px;
-		padding-right: 5px;
-		margin: 5px;
+		transform: rotate(+1deg);
+		-webkit-transform: rotate(+1deg);
+		-ms-transform: rotate(+1deg);
+		-o-transform: rotate(+1deg);
+		-moz-transform: rotate(+1deg);
 	}
-	.rueckblick-a {
-		font-size: 200%;
-		transform: rotate(-10deg);
-		-webkit-transform: rotate(-10deg);
-		-ms-transform: rotate(-10deg);
-		-o-transform: rotate(-10deg);
-		-moz-transform: rotate(-10deg);
-	}
-	.rueckblick-b {
-		font-size: 150%;
-	}
-	.rueckblick-c {
-		font-size: 240%;
-		transform: rotate(3deg);
-		-webkit-transform: rotate(3deg);
-		-ms-transform: rotate(3deg);
-		-o-transform: rotate(3deg);
-		-moz-transform: rotate(3deg);
-	}
-	.rueckblick-d {
-		font-size: 180%;
-		transform: rotate(-3deg);
-		-webkit-transform: rotate(-3deg);
-		-ms-transform: rotate(-3deg);
-		-o-transform: rotate(-3deg);
-		-moz-transform: rotate(-3deg);
-	}
-	a.rueckblick {
-		font-size: 120%;
+	.event-teaser a:nth-child(2) {
 		display: inline-block;
 		color: white;
 		background-color: #E01F1F;
-		padding-left: 5px;
-		padding-right: 5px;
-		margin: 3px;
+		padding: 0 5px;
 	}
-	a.rueckblick:hover {
+	.event-teaser a:nth-child(2):hover {
 		transform: rotate(-3deg);
 		-webkit-transform: rotate(-3deg);
 		-ms-transform: rotate(-3deg);
@@ -59,57 +47,48 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
-		<div class="span-11 colborder">
-			<h2>Nächster <span class="loud">Termin</span></h2>
-			<div>
-				<strong>Mobile meets NoSQL - ein Überblick</strong><br/>
-				mit Jan Steemann von triAGENS<br/>
+		<div class="event-teaser span-7 colborder">
+			<h1><span class="date">14. März</span> <span class="location">im StartPlatz</span></h1>
 
-				Do. 14. März 2013 &nbsp; 18:30&nbsp;Uhr<br/>
-				StartPlatz, Im Mediapark 5<br/>
-				<a href="/2013-03-14-vortragsabend.html">Mehr Infos</a> &nbsp;|&nbsp;
-				<a href="http://www.doodle.com/qgmxewqruxqkzegz" target="_blank">Doodle</a> &nbsp;|&nbsp;
-				<a href="http://www.nerdhub.de/events/105-mobile-cologne/dates/1137">nerdhub</a> &nbsp;|&nbsp;
-				<a href="https://www.xing.com/events/-1199695" target="_blank">Xing</a>
-			</div>
+			<img src="/static/images/events/mobile-cologne-2013-03-xing.jpg" width="240" height="180" alt="Teaser: Mobile meets NoSQL" />
 
-			<img src="/static/images/marker-5.png" alt="Jetzt Termin sichern!" width="193" height="120"
-			     style="margin: 20px;" />
-
-			<div id="newsletterbox">
-				{% include _sidebar_newsletter.html %}
-			</div>
+			<strong>Mobile meets NoSQL - ein Überblick</strong><br/>
+			mit Jan Steemann von triAGENS<br/>
+			<a href="/2013-03-14-vortragsabend.html">Mehr Infos</a> &nbsp;|&nbsp;
+			<a href="http://www.doodle.com/qgmxewqruxqkzegz" target="_blank">Doodle</a> &nbsp;|&nbsp;
+			<a href="http://www.nerdhub.de/events/105-mobile-cologne/dates/1137" target="_blank">nerdhub</a> &nbsp;|&nbsp;
+			<a href="https://www.xing.com/events/-1199695" target="_blank">Xing</a>
 		</div>
 
-		<div class="span-12 last">
-			<h2>Rückblick <span class="loud">2012</span></h2>
+		<div class="span-7 colborder">
+			<h1 class="event-teaser"><span class="date">11. April</span> <span class="location">in der Bottfabrik</span></h1>
 
-			Unsere noch junge user group hat sich zum ersten mal erst im Mai 2012
-			auf ein Bier getroffen.
-			Seitdem können wir auf ein interessantes und durch euch mitgestaltes
-			Jahr zurückblicken. Dafür bedanken wir uns und wünschen euch und uns
-			einen guten Start ins nächste Jahr.<br/><br/>
+			<img src="/static/images/events/mobile-cologne-2013-04-xing.jpg" width="240" height="180" alt="Teaser: Game Development" />
 
-			<p class="clearfix" style="text-align: center;">
-				<span class="rueckblick-a">8&nbsp;Treffen</span>
-				<span class="rueckblick-b">Drei&nbsp;Stammtische</span>
-				<span class="rueckblick-c">10&nbsp;Vorträge</span>
-				<span class="rueckblick-d">~&nbsp;100&nbsp;Besucher</span>
-				<br/>
+			<strong>Game Development</strong><br/>
+			mit Maxim Zaks<br/>
+			<a href="/2013-03-14-vortragsabend.html">Mehr Infos</a> &nbsp;|&nbsp;
+			<a href="http://www.doodle.com/qgmxewqruxqkzegz" target="_blank">Doodle</a> &nbsp;|&nbsp;
+			<a href="http://www.nerdhub.de/events/105-mobile-cologne/dates/1137" target="_blank">nerdhub</a> &nbsp;|&nbsp;
+			<a href="https://www.xing.com/events/-1199695" target="_blank">Xing</a>
+		</div>
 
-				<a href="/2012-09-13-vortragsabend.html" class="rueckblick" title="Model-driven mobile development - von Maxim Zaks">MDD</a>
-				<a href="/2012-06-14-vortragsabend.html" class="rueckblick" title="Mobile Natural User Interface - vom Wischen, Tappen und Sprechen">NUI</a>
-				<a href="/2012-07-12-vortragsabend.html" class="rueckblick" title="Native gegen Web war gestern">Hybrid-Apps</a>
-				<a href="/2012-11-08-vortragsabend.html" class="rueckblick" title="RubyMotion Introduction, iOS meets Ruby">RubyMotion</a>
-				<a href="/2012-06-14-vortragsabend.html" class="rueckblick" title="Debugging von mobilen Webseiten (und Webviews)">Debugging</a>
-				<br/>
+		<div class="span-8 last">
+			{% include _sidebar_newsletter_light.html %}
 
-				<a href="/2012-07-12-vortragsabend.html" class="rueckblick" title="Neues aus Cupertino, frische Eindrücke von der WWDC">WWDC</a>
-				<a href="/2012-10-11-vortragsabend.html" class="rueckblick" title="Performance optimierungen für mobile web">Performance</a>
-				<a href="/2012-06-14-vortragsabend.html" class="rueckblick" title="Neo4OC - Neo4j Graphdatenbank mit Objective-C">Neo4OC</a>
-				<a href="/2012-11-08-vortragsabend.html" class="rueckblick" title="Plattformübergreifende Apps entwickeln mit Kivy und Python">Kivy</a>
-				<a href="/2012-07-12-vortragsabend.html" class="rueckblick" title="Surfing the API: RESTful Hypermedia">RESTful</a>
-			</p>
+			<div class="fb-like-box"
+				data-href="https://www.facebook.com/mobilecgn"
+				data-width="310" data-height="300"
+				data-show-faces="true" data-stream="false" data-header="false"
+				style="margin-top: 20px;"></div>
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
 		</div>
 	</div>
 </div>

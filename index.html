@@ -34,35 +34,24 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
-		<div class="event-teaser span-7 colborder">
-			<a href="/2013-05-08-stammtisch.html">
-				<h1><span class="date">Mi., 8. Mai</span> <span class="location">im Stadtgarten</span></h1>
+		{% for post in site.categories.frontpage reversed limit:2 %}
+			<div class="event-teaser span-7 colborder">
+				<a href="{{ post.url }}">
+					<h1>
+						<span class="date">{{ post.frontpage_headline_date }}</span>
+						<span class="location">{{ post.frontpage_headline_location }}</span>
+					</h1>
+					<img src="{{ post.frontpage_headline_image }}" width="240" height="180" alt="{{ post.title }}" /><br/>
+				</a>
 
-				<img src="/static/images/events/mobile-cologne-2013-05.png" width="240" height="180" alt="Stammtisch" /><br/>
-			</a>
-
-			<strong>Stammtisch</strong><br/>
-			mit Kölsch, Pils und seinen Freunden<br/>
-			<a href="/2013-05-08-stammtisch.html">Mehr Infos</a> &nbsp;|&nbsp;
-			<a href="http://www.doodle.com/si77fgzxe8bqf6gb" target="_blank">Doodle</a> &nbsp;|&nbsp;
-			<a href="http://www.nerdhub.de/events/105-mobile-cologne/dates/1139" target="_blank">nerdhub</a> &nbsp;|&nbsp;
-			<a href="https://www.xing.com/events/-1238228" target="_blank">Xing</a>
-		</div>
-
-		<div class="event-teaser span-7 colborder">
-			<a href="/2013-06-13-vortragsabend.html">
-				<h1><span class="date">Do., 13. Juni</span> <span class="location">bei tba.</span></h1>
-
-				<img src="/static/images/events/mobile-cologne-2013-06-c.png" width="240" height="180" alt="Teaser: MobileTesting" /><br/>
-			</a>
-
-			<strong>Mobile CI für Android &amp; iOS</strong><br/>
-			mit Dennis, Ingo, Lars &amp; Christoph<br/>
-			<a href="/2013-06-13-vortragsabend.html">Mehr Infos</a> &nbsp;|&nbsp;
-			<a href="http://www.doodle.com/yapqu764cemefhrv" target="_blank">Doodle</a> &nbsp;|&nbsp;
-			<a href="http://www.nerdhub.de/events/105-mobile-cologne/dates/1140" target="_blank">nerdhub</a> &nbsp;|&nbsp;
-			<a href="https://www.xing.com/events/-1224724" target="_blank">Xing</a>
-		</div>
+				<strong>{{ post.title }}</strong><br/>
+				{{ post.frontpage_headline }}<br/>
+				<a href="{{ post.url }}">Mehr Infos</a> &nbsp;|&nbsp;
+				<a href="{{ post.doodle }}" target="_blank">Doodle</a> &nbsp;|&nbsp;
+				<a href="{{ post.nerdhub }}" target="_blank">nerdhub</a> &nbsp;|&nbsp;
+				<a href="{{ post.xing }}" target="_blank">Xing</a>
+			</div>
+		{% endfor %}
 
 		<div class="span-8 last">
 			{% include _sidebar_newsletter_light.html %}

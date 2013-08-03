@@ -13,7 +13,9 @@
 	function initializeGoogleMaps() {
 		var mapOptions = {
 			zoom: 15,
+{% if latitude && longitude %}
 			center: new google.maps.LatLng( {{ latitude }}, {{ longitude }} ),
+{% endif %}
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		}
 		var map = new google.maps.Map(document.getElementById("googlemaps"), mapOptions);

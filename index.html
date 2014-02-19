@@ -34,8 +34,9 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
+		<!--
 		<div class="event-teaser span-8" style="margin-left: 40px; width: 250px;">
-			<strong title="Ein externer Veranstaltungstipp">Veranstaltungstipp:</strong>
+			<strong title="Ein externer Veranstaltungstipp">Veranstaltungstipp</strong>
 			<h1>
 				<span class="date">Mi. 29. Januar</span>
 				<span class="location">im Startplatz</span>
@@ -47,9 +48,10 @@ title: user group for ios, android, html5
 			Bei Interesse <a href="/kontakt.html">schreibt uns bitte hier</a>.<br/>
 			Weitere Infos auf <a href="http://www.startplatz.de/event/startplatz-parts2talk-mobile/">www.startplatz.de</a>
 		</div>
-		{% for post in site.categories.frontpage reversed limit:1 %}
+		-->
+		{% for post in site.categories.frontpage reversed limit:2 %}
 			<div class="event-teaser span-8" style="margin-left: 40px; width: 250px;">
-				<strong title="Eine von uns organisierte Veranstaltung">Vortragsabend:</strong>
+				<strong style="font-size: 108%;">{{ post.all_events_title }}</strong><br/>
 				<a href="{{ post.url }}">
 					<h1>
 						<span class="date">{{ post.frontpage_headline_date }}</span>

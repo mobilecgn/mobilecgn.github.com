@@ -10,6 +10,10 @@ body {
 	font-size: 100%;
 }
 
+p {
+	margin: 0.5em 0;
+}
+
 .x-container {
 	background-image:url(/static/blueprint/src/grid.png);
 }

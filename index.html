@@ -50,36 +50,36 @@ title: user group for ios, android, html5
 		</div>
 		-->
 
+		<!-- Soezial layout - only for the upcoming event! -->
+		{% for post in site.categories.frontpage reversed limit:1 %}
 		<div class="event-teaser span-16" style="min-height: 380px;">
-			<strong style="font-size: 108%;">Jetzt vormerken:</strong><br/>
-			<a href="/2014-05-22-interactive-cologne-spezial.html">
-				<h1>
-					<span class="date">Großes Jubiliäum und Interactive Cologne Spezial</span>
-					<span class="location">Do. 22. Mai ab 17 Uhr in der Wohngemeinschaft</span>
-				</h1>
-			</a>
-			<p>
-				Im Mai möchten wir mit euch unser zweijähiges Jubiliäum feiern.
-				Aus diesem Anlass verlegen wir unseren Vortragsabend in die gemütliche
-				<em>Wohngemeinschaft</em> <a href="/2014-05-22-interactive-cologne-spezial.html#location">in bester Innenstadtlage</a>.
-			</p>
-			<p>
-				Wir beginnen den Abend etwas früher um euch ein umfassendes Themenpaket zu bieten:
-			</p>
-			<p>
-				<strong>
-					<a href="#push">Crossplattform Push Notifications</a> &nbsp; &nbsp;
-					<a href="#android-indoor">Indoor Ortung für Android</a> &nbsp; &nbsp;
-					<a href="#ibeacon">iBeacon Einführung</a> &nbsp; &nbsp;
-				</strong>
-			</p>
-			<p>
-				Im direkten Anschluss an unser Meetup findet, ebenfalls in der Wohngemeinschaft,
-				das Interactive&nbsp;Cologne come together statt: <em>INTERACTIVE Meet &amp; Greet.</em><br/>
-			</p>
-			
-			<!-- Show links -->
-			{% for post in site.categories.frontpage reversed limit:1 %}
+				<strong style="font-size: 108%;">Jetzt vormerken:</strong><br/>
+				<a href="{{ post.url }}">
+					<h1>
+						<span class="date">Großes Jubiliäum und Interactive Cologne Spezial</span>
+						<span class="location">Do. 22. Mai ab 17 Uhr in der Wohngemeinschaft</span>
+					</h1>
+				</a>
+				<p>
+					Im Mai möchten wir mit euch unser zweijähiges Jubiliäum feiern.
+					Aus diesem Anlass verlegen wir unseren Vortragsabend in die gemütliche
+					<em>Wohngemeinschaft</em> <a href="{{ post.url }}#location">in bester Innenstadtlage</a>.
+				</p>
+				<p>
+					Wir beginnen den Abend etwas früher um euch ein umfassendes Themenpaket zu bieten:
+				</p>
+				<p>
+					<strong>
+						<a href="{{ post.url }}#push">Crossplattform Push Notifications</a> &nbsp; &nbsp;
+						<a href="{{ post.url }}#android-indoor">Indoor Ortung für Android</a> &nbsp; &nbsp;
+						<a href="{{ post.url }}#ibeacon">iBeacon Einführung</a> &nbsp; &nbsp;
+					</strong>
+				</p>
+				<p>
+					Im direkten Anschluss an unser Meetup findet, ebenfalls in der Wohngemeinschaft,
+					das Interactive&nbsp;Cologne come together statt: <em>INTERACTIVE Meet &amp; Greet.</em><br/>
+				</p>
+				
 				<a href="{{ post.url }}">Mehr Infos</a>
 				{% if post.doodle %}
 					&nbsp;|&nbsp; <a href="{{ post.doodle }}" target="_blank">Doodle</a>
@@ -93,10 +93,10 @@ title: user group for ios, android, html5
 				{% if post.hackenin %}
 					&nbsp;|&nbsp; <a href="{{ post.hackenin }}" target="_blank">hacken.in</a>
 				{% endif %}
-			{% endfor %}
-		</div>
+			</div>
+		{% endfor %}
 
-		<!-- Limit 0 because we show the event with an special width above.. -->
+		<!-- Limit 0 because we show the event with an special width above! -->
 		{% for post in site.categories.frontpage reversed limit:0 %}
 			<div class="event-teaser span-8" style="margin-left: 40px; width: 250px;">
 				<strong style="font-size: 108%;">{{ post.all_events_title }}</strong><br/>

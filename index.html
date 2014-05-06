@@ -68,34 +68,34 @@ title: user group for ios, android, html5
 				<p>
 					Wir beginnen den Abend etwas früher um euch ein umfassendes Themenpaket zu bieten:
 				</p>
+				<ul style="margin: 0;">
+					<li><a href="{{ post.url }}#android-indoor"><strong>Indoor Ortung für Android</strong></a></li>
+					<li><a href="{{ post.url }}#ibeacon"><strong>Micro Location-based Apps mit iBeacon</strong></a></li>
+					<li><a href="{{ post.url }}#push"><strong>Crossplattform Push Notifications</strong></a></li>
+				</ul>
 				<p>
-					<strong>
-						<a href="{{ post.url }}#push">Crossplattform Push Notifications</a> &nbsp; &nbsp;
-						<a href="{{ post.url }}#android-indoor">Indoor Ortung für Android</a> &nbsp; &nbsp;
-						<a href="{{ post.url }}#ibeacon">iBeacon Einführung</a> &nbsp; &nbsp;
-					</strong>
+					Im Anschluss an unser Meetup findet, ebenfalls in der Wohngemeinschaft,<br/>
+					das Interactive&nbsp;Cologne come together statt: <em>INTERACTIVE Meet &amp; Greet.</em>
+					<img src="/static/beer.png" style="height: 1em;" />
 				</p>
 				<p>
-					Im direkten Anschluss an unser Meetup findet, ebenfalls in der Wohngemeinschaft,
-					das Interactive&nbsp;Cologne come together statt: <em>INTERACTIVE Meet &amp; Greet.</em><br/>
+					<a href="{{ post.url }}">Mehr Infos</a>
+					{% if post.doodle %}
+						&nbsp;|&nbsp; <a href="{{ post.doodle }}" target="_blank">Doodle</a>
+					{% endif %}
+					{% if post.xing %}
+						&nbsp;|&nbsp; <a href="{{ post.xing }}" target="_blank">Xing</a>
+					{% endif %}
+					{% if post.meetup %}
+						&nbsp;|&nbsp; <a href="{{ post.meetup }}" target="_blank">Meetup</a>
+					{% endif %}
+					{% if post.nerdhub %}
+						&nbsp;|&nbsp; <a href="{{ post.nerdhub }}" target="_blank">nerdhub</a>
+					{% endif %}
+					{% if post.hackenin %}
+						&nbsp;|&nbsp; <a href="{{ post.hackenin }}" target="_blank">hacken.in</a>
+					{% endif %}
 				</p>
-				
-				<a href="{{ post.url }}">Mehr Infos</a>
-				{% if post.doodle %}
-					&nbsp;|&nbsp; <a href="{{ post.doodle }}" target="_blank">Doodle</a>
-				{% endif %}
-				{% if post.xing %}
-					&nbsp;|&nbsp; <a href="{{ post.xing }}" target="_blank">Xing</a>
-				{% endif %}
-				{% if post.meetup %}
-					&nbsp;|&nbsp; <a href="{{ post.meetup }}" target="_blank">Meetup</a>
-				{% endif %}
-				{% if post.nerdhub %}
-					&nbsp;|&nbsp; <a href="{{ post.nerdhub }}" target="_blank">nerdhub</a>
-				{% endif %}
-				{% if post.hackenin %}
-					&nbsp;|&nbsp; <a href="{{ post.hackenin }}" target="_blank">hacken.in</a>
-				{% endif %}
 			</div>
 		{% endfor %}
 

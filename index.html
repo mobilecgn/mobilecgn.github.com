@@ -53,11 +53,11 @@ title: user group for ios, android, html5
 		<!-- Soezial layout - only for the upcoming event! -->
 		{% for post in site.categories.frontpage reversed limit:1 %}
 		<div class="event-teaser span-16" style="min-height: 380px;">
-				<strong style="font-size: 108%;">Jetzt vormerken:</strong><br/>
+				<strong style="font-size: 108%;">Vortragsabend</strong><br/
 				<a href="{{ post.url }}">
 					<h1>
-						<span class="date">Großes Jubiläum und Interactive Cologne Spezial</span>
-						<span class="location">Do. 22. Mai ab 17 Uhr in der Wohngemeinschaft</span>
+						<span class="date">Interactive Cologne Spezial</span>
+						<span class="location">Do., 22. Mai in der Wohngemeinschaft</span>
 					</h1>
 				</a>
 				<p>
@@ -79,22 +79,27 @@ title: user group for ios, android, html5
 					<img src="/static/beer.png" style="height: 1em;" />
 				</p>
 				<p>
-					<a href="{{ post.url }}">Mehr Infos</a>
+					<strong><a href="{{ post.url }}">Mehr Infos</a>
+					&nbsp; | &nbsp;
+					Kostenlose Anmeldung:
 					{% if post.doodle %}
-						&nbsp;|&nbsp; <a href="{{ post.doodle }}" target="_blank">Doodle</a>
+						&nbsp;<a href="{{ post.doodle }}" target="_blank">Doodle</a>
 					{% endif %}
 					{% if post.xing %}
-						&nbsp;|&nbsp; <a href="{{ post.xing }}" target="_blank">Xing</a>
+						&nbsp;<a href="{{ post.xing }}" target="_blank">Xing</a>
 					{% endif %}
 					{% if post.meetup %}
-						&nbsp;|&nbsp; <a href="{{ post.meetup }}" target="_blank">Meetup</a>
+						&nbsp;<a href="{{ post.meetup }}" target="_blank">Meetup</a>
 					{% endif %}
+					<!--
 					{% if post.nerdhub %}
-						&nbsp;|&nbsp; <a href="{{ post.nerdhub }}" target="_blank">nerdhub</a>
+						&nbsp;<a href="{{ post.nerdhub }}" target="_blank">nerdhub</a>
 					{% endif %}
 					{% if post.hackenin %}
-						&nbsp;|&nbsp; <a href="{{ post.hackenin }}" target="_blank">hacken.in</a>
+						&nbsp;<a href="{{ post.hackenin }}" target="_blank">hacken.in</a>
 					{% endif %}
+					-->
+					</strong>
 				</p>
 				<img src="/static/images/events/interactive-cologne-2014.png" style="width: 100%;">
 			</div>

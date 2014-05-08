@@ -53,7 +53,6 @@ title: user group for ios, android, html5
 		<!-- Soezial layout - only for the upcoming event! -->
 		{% for post in site.categories.frontpage reversed limit:1 %}
 		<div class="event-teaser span-16" style="min-height: 380px;">
-				<strong style="font-size: 108%;">Vortragsabend</strong><br/
 				<a href="{{ post.url }}">
 					<h1>
 						<span class="date">Interactive Cologne Spezial</span>
@@ -61,12 +60,14 @@ title: user group for ios, android, html5
 					</h1>
 				</a>
 				<p>
-					Im Mai möchten wir mit euch unser zweijähriges Jubiläum feiern.
-					Aus diesem Anlass verlegen wir unseren Vortragsabend in die gemütliche
-					<em>Wohngemeinschaft</em> <a href="{{ post.url }}#location">in bester Innenstadtlage</a>.
+					Wir laden ein zu unserem
+					"<a href="http://2014.interactive-cologne.com" target="_blank">Interactive Cologne</a> Spezial"
+					Meetup am Donnerstag, den 22.05., in <a href="{{ post.url }}#location">die wohngemeinschaft</a> ein!
 				</p>
 				<p>
-					Wir beginnen den Abend etwas früher um euch ein umfassendes Themenpaket zu bieten:
+					Wir beginnen den Abend dieses mal etwas früher mit einem lockeren und hoffentlich
+					sonnigem Come Together / Kölsch und bieten euch anschließend (ab etwa 18 Uhr)
+					direkt drei spannende Vorträge an:
 				</p>
 				<ul style="margin: 0;">
 					<li><a href="{{ post.url }}#android-indoor"><strong>Indoor Ortung für Android</strong></a></li>
@@ -101,7 +102,7 @@ title: user group for ios, android, html5
 					-->
 					</strong>
 				</p>
-				<img src="/static/images/events/interactive-cologne-2014.png" style="width: 100%;">
+				<img src="/static/images/events/interactive-cologne-2014.png" style="width: 100%;"/>
 			</div>
 		{% endfor %}
 

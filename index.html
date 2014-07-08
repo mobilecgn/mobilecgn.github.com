@@ -50,65 +50,9 @@ title: user group for ios, android, html5
 		</div>
 		-->
 
-		<!-- Soezial layout - only for the upcoming event! -->
-		{% for post in site.categories.frontpage reversed limit:1 %}
-		<div class="event-teaser span-16" style="min-height: 380px;">
-				<a href="{{ post.url }}">
-					<h1>
-						<span class="date">Interactive Cologne Spezial</span>
-						<span class="location">Do., 22. Mai in der Wohngemeinschaft</span>
-					</h1>
-				</a>
-				<p>
-					Wir laden ein zu unserem
-					"<a href="http://2014.interactive-cologne.com" target="_blank">Interactive Cologne</a> Spezial"
-					Meetup am Donnerstag, den 22.05., in <a href="{{ post.url }}#location">die wohngemeinschaft</a> ein!
-				</p>
-				<p>
-					Wir beginnen den Abend dieses mal etwas früher mit einem lockeren und hoffentlich
-					sonnigem Come Together / Kölsch und bieten euch anschließend (ab etwa 18 Uhr)
-					direkt drei spannende Vorträge an:
-				</p>
-				<ul style="margin: 0;">
-					<li><a href="{{ post.url }}#android-indoor"><strong>Indoor Ortung für Android</strong></a></li>
-					<li><a href="{{ post.url }}#ibeacon"><strong>Micro Location-based Apps mit iBeacon</strong></a></li>
-					<li><a href="{{ post.url }}#push"><strong>Crossplattform Push Notifications</strong></a></li>
-				</ul>
-				<p>
-					Im Anschluss an unser Meetup findet, ebenfalls in der Wohngemeinschaft,<br/>
-					das Interactive&nbsp;Cologne come together statt: <em>INTERACTIVE Meet &amp; Greet.</em>
-					<img src="/static/beer.png" style="height: 1em;" />
-				</p>
-				<p>
-					<strong><a href="{{ post.url }}">Mehr Infos</a>
-					&nbsp; | &nbsp;
-					Kostenlose Anmeldung:
-					{% if post.doodle %}
-						&nbsp;<a href="{{ post.doodle }}" target="_blank">Doodle</a>
-					{% endif %}
-					{% if post.xing %}
-						&nbsp;<a href="{{ post.xing }}" target="_blank">Xing</a>
-					{% endif %}
-					{% if post.meetup %}
-						&nbsp;<a href="{{ post.meetup }}" target="_blank">Meetup</a>
-					{% endif %}
-					<!--
-					{% if post.nerdhub %}
-						&nbsp;<a href="{{ post.nerdhub }}" target="_blank">nerdhub</a>
-					{% endif %}
-					{% if post.hackenin %}
-						&nbsp;<a href="{{ post.hackenin }}" target="_blank">hacken.in</a>
-					{% endif %}
-					-->
-					</strong>
-				</p>
-				<img src="/static/images/events/interactive-cologne-2014.png" style="width: 100%;"/>
-			</div>
-		{% endfor %}
-
 		<!-- Limit 0 because we show the event with an special width above! -->
-		{% for post in site.categories.frontpage reversed limit:0 %}
-			<div class="event-teaser span-8" style="margin-left: 40px; width: 250px;">
+		{% for post in site.categories.frontpage reversed limit:2 %}
+			<div class="event-teaser span-8" style="margin-right: 60px; width: 250px;">
 				<strong style="font-size: 108%;">{{ post.all_events_title }}</strong><br/>
 				<a href="{{ post.url }}">
 					<h1>
@@ -145,6 +89,7 @@ title: user group for ios, android, html5
 		</div>
 	</div>
 
+	<!--
 	<div style="text-align: center; font-size: 20px; margin: 30px;">
 		mehr aus unserer schönen Stadt
 	</div>
@@ -179,8 +124,9 @@ title: user group for ios, android, html5
 			</div>
 		</div>
 	</div>
+	-->
 
-	<div style="text-align: center; margin: 30px;">
+	<div style="text-align: center; margin: 80px;">
 		<h2><a href="http://thisiscologne.tumblr.com/" target="_blank">#thisiscologne</a></h2>
 	</div>
 	<div class="container">
@@ -213,29 +159,3 @@ title: user group for ios, android, html5
 		</div>
 	</div>
 </div>
-
-<!--
-<div class="content">
-	<div class="container">
-
-		<img src="/static/images/plattform_ios.png" alt="iOS" class="span-3" style="margin-top: -5px;" />
-		<img src="/static/images/plattform_android.png" alt="Android" class="span-3" style="margin-bottom: 15px;" />
-		<img src="/static/images/plattform_html5.png" alt="HTML5" class="span-3" style="margin-bottom: 15px;" />
-		<img src="/static/images/plattform_windows.png" alt="Windows" class="span-3" style="margin-bottom: 15px;" />
-		<img src="/static/images/plattform_blackberry.png" alt="Blackberry" class="span-3" />
-
-	</div>
-</div>
--->
-<!--
-<div class="content">
-	<div class="container">
-
-		<a href="https://twitter.com/mobilecgn"><img src="/static/images/twitter_big.png" alt="Twitter" width="150" height="150"></a>
-		<a href="https://www.facebook.com/mobilecgn"><img src="/static/images/facebook_big.png" alt="Facebook" width="150" height="150"></a>
-		<a href="https://plus.google.com/118274408028336548190?rel=author"><img src="/static/images/google-plus_big.jpg" alt="Google+" width="150" height="150"></a>
-		<a href="https://www.xing.com/net/mobilecgn/"><img src="/static/images/xing_big.png" alt="Xing" width="150" height="150"></a>
-
-	</div>
-</div>
--->

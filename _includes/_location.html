@@ -1,5 +1,5 @@
-{% assign openurl  = 'http://maps.google.de/maps?q='     | append: location | append: '&cid=' | append: googleid %}
-{% assign routeurl = 'http://maps.google.de/maps?daddr=' | append: location | append: '&cid=' | append: googleid %}
+{% assign openurl  = 'https://www.google.de/maps/search/' | append: location %}
+{% assign routeurl = 'https://www.google.de/maps/dir//'   | append: location %}
 
 <div class="googlemaps">
 	<a href="{{ openurl }}" target="_blank">OPEN GOOGLE MAPS</a>

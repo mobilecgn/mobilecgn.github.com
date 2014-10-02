@@ -1,9 +1,11 @@
 {% assign googleid = '608720181314421967' %}
+{% assign latitude = 50.942151 %}
+{% assign longitude = 6.957232 %}
 {% assign location = 'Sevenval GmbH, Bahnhofsvorplatz 1, 50667 Köln' %}
 
 <h3>Location</h3>
-<p style="margin-bottom: 0.5em;">{{ location }}</p>
-<p style="margin-bottom: 0.5em;">
+<p>{{ location }}, <a href="http://www.sevenval.com/">www.sevenval.com/</a></p>
+<p>
 	<b>Der Eingang von sevenval</b> ist im Torbogen direkt gegenüber vom
 	Kölner Hauptbahnhof (Dom-Seite).
 	Im kleinem Torbogen, direkt hinter den Tischen vom Gaffel,
@@ -11,4 +13,4 @@
 	Ihr findet uns im <b>6. Stock</b>!
 </p>
 {% include _location.html %}
-&nbsp; | &nbsp; Haltestelle: Köln Hbf Ausgang Domseite
+&nbsp; | &nbsp; Haltestelle: <strong>Köln Hbf</strong> Ausgang Domseite

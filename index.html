@@ -34,34 +34,17 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
-		<!--
-		<div class="event-teaser span-8" style="margin-left: 40px; width: 250px;">
-			<strong title="Ein externer Veranstaltungstipp">Veranstaltungstipp</strong>
-			<h1>
-				<span class="date">Mi. 29. Januar</span>
-				<span class="location">im Startplatz</span>
-			</h1>
-			
-			<strong>STARTPLATZ Parts2Talk: Mobile</strong><br/>
-			zeigt wann und wie eine App sinnvoll ist und welche Entwicklungen bevorstehen.<br/>
-			Unsere Mitglieder können über uns einen Rabattcode erhalten.<br/>
-			Bei Interesse <a href="/kontakt.html">schreibt uns bitte hier</a>.<br/>
-			Weitere Infos auf <a href="http://www.startplatz.de/event/startplatz-parts2talk-mobile/">www.startplatz.de</a>
-		</div>
-		-->
-
 		<!-- Limit 0 because we show the event with an special width above! -->
-		{% for post in site.categories.frontpage reversed limit:2 %}
+		{% for post in site.categories.frontpage reversed limit:1 %}
 			<div class="event-teaser span-8" style="margin-right: 60px; width: 250px;">
-				<strong style="font-size: 108%;">{{ post.all_events_title }}</strong><br/>
+				<strong style="font-size: 108%;">{{ post.frontpage_line1 }}</strong><br/>
 				<a href="{{ post.url }}">
 					<h1>
-						<span class="date">{{ post.frontpage_headline_date }}</span>
-						<span class="location">{{ post.frontpage_headline_location }}</span>
+						<span class="date">{{ post.frontpage_line2 }}</span>
+						<span class="location">{{ post.frontpage_line3 }}</span>
 					</h1>
 				</a>
-
-				{{ post.frontpage_headline }}<br/>
+				{{ post.frontpage_line4 }}<br/>
 				<a href="{{ post.url }}">Mehr Infos</a>
 				{% if post.doodle %}
 					&nbsp;|&nbsp; <a href="{{ post.doodle }}" target="_blank">Doodle</a>
@@ -82,6 +65,21 @@ title: user group for ios, android, html5
 				-->
 			</div>
 		{% endfor %}
+
+		<div class="event-teaser span-8" style="margin-right: 60px; width: 250px;">
+			<strong>Donnerstag, 3. März</strong>
+			<a href="http://hackathon.mobile.cologne/">
+				<h1>
+					<span class="date">Android Wear(able)</span>
+					<span class="location">Hackathon</span>
+				</h1>
+			</a>
+			
+			Mach mit beim ersten Android Wear(able) Hackathon in Köln. Setze neue Ideen um oder tauche ein in die Welt der Android Wear Platform.
+			Pitch deine Ideen oder tritt einem Team bei um gemeinschaftlich in nur vier Stunden etwas neues zu kreieren.<br/>
+			<a href="http://hackathon.mobile.cologne/">Mehr Infos</a>
+			&nbsp;|&nbsp; <a href="https://www.eventbrite.de/e/android-wearable-4-hour-venture-hackathon-tickets-15489913749" target="_blank">Anmeldung auf Eventbrite</a>
+		</div>
 
 		<div class="span-8 last">
 			{% include _sidebar_newsletter_light.html %}

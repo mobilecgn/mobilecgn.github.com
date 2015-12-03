@@ -1,7 +1,6 @@
 build:
-	jekyll build
+	bundle exec jekyll build --future
 publish: build
 	rsync -r --stats _site/ mobilecologne@www.mobilecologne.de:www/
 run:
-	jekyll server --watch
-
+	bundle exec jekyll server --future --watch

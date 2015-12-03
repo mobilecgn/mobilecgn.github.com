@@ -34,7 +34,6 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
-		<!-- Limit 0 because we show the event with an special width above! -->
 		{% for post in site.categories.frontpage reversed limit:2 %}
 			<div class="event-teaser span-8" style="margin-right: 60px; max-width: 250px;">
 				<strong style="font-size: 108%;">{{ post.frontpage_line1 }}</strong><br/>
@@ -55,14 +54,6 @@ title: user group for ios, android, html5
 				{% if post.meetup %}
 					&nbsp;|&nbsp; <a href="{{ post.meetup }}" target="_blank">Meetup</a>
 				{% endif %}
-				<!--
-				{% if post.nerdhub %}
-					&nbsp;|&nbsp; <a href="{{ post.nerdhub }}" target="_blank">nerdhub</a>
-				{% endif %}
-				{% if post.hackenin %}
-					&nbsp;|&nbsp; <a href="{{ post.hackenin }}" target="_blank">hacken.in</a>
-				{% endif %}
-				-->
 			</div>
 		{% endfor %}
 
@@ -75,7 +66,7 @@ title: user group for ios, android, html5
 					<span class="location">im Solution Space</span>
 				</h1>
 			</a>
-			
+
 			Mach mit beim ersten Android Wear(able) Hackathon in Köln. Setze neue Ideen um oder tauche ein in die Welt der Android Wear Platform.
 			Pitch deine Ideen oder tritt einem Team bei um gemeinschaftlich in nur vier Stunden etwas neues zu kreieren.<br/><br/>
 			<a href="http://hackathon.mobile.cologne/">Mehr Infos</a>

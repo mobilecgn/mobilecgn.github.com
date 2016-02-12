@@ -1,0 +1,13 @@
+RewriteEngine	on
+RewriteCond	%{HTTP_HOST}	!^(www\.mobilecologne\.de|mobile\.cologne|www\.mobile\.cologne|mobile\.koeln|www\.mobile\.koeln)$ [NC]
+RewriteRule	(.*)		http://www.mobilecologne.de/$1 [R=301,L]
+
+Header unset Last-Modified
+Header unset ETag
+FileETag None
+
+ExpiresActive On
+ExpiresByType image/gif "access plus 7 days"
+ExpiresByType image/jpeg "access plus 7 days"
+ExpiresByType image/png "access plus 7 days"
+

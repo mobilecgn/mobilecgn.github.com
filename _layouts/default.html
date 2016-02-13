@@ -55,12 +55,13 @@
 <div class="navigation">
 	<div class="container">
 		<div class="span-20">
-			<a href="/" class="span-3 {% if page.url == '/index.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Home</a>
-			<a href="/about.html" class="span-3 {% if page.url == '/about.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Themen</a>
-			<a href="/termine.html" class="span-3 {% if page.url == '/termine.html' or page.url < '/a' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Termine</a>
-			<a href="/lightningtalks.html" class="span-3 {% if page.url == '/lightningtalks.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Mitmachen</a>
-			<a href="/sponsoren.html" class="span-3 {% if page.url == '/sponsoren.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Unterstützen</a>
-			<a href="/kontakt.html" class="span-3 {% if page.url == '/kontakt.html' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Kontakt</a>
+			<!-- {{ page.url }} -->
+			<a href="/" class="span-3 {% if page.url == '/' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Home</a>
+			<a href="/about.html" class="span-3 {% if page.url == '/about' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Themen</a>
+			<a href="/termine.html" class="span-3 {% if page.url == '/termine' or page.url < '/a' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Termine</a>
+			<a href="/lightningtalks.html" class="span-3 {% if page.url == '/lightningtalks' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Mitmachen</a>
+			<a href="/sponsoren.html" class="span-3 {% if page.url == '/sponsoren' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Unterstützen</a>
+			<a href="/kontakt.html" class="span-3 {% if page.url == '/kontakt' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Kontakt</a>
 		</div>
 		<div class="span-4 last right social" style="margin-top: 2px;">
 			<a href="https://twitter.com/mobilecgn"><img src="/static/icomoon/twitter-2.png" alt="Twitter"></a>

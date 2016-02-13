@@ -1,7 +1,7 @@
 safe: true
 lsi: false
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 permalink: /:year-:month-:day-:title.html
 
@@ -12,4 +12,3 @@ author:
   email: spam@mobilecologne.de
 
 production_url : http://www.mobilecologne.de
-

@@ -58,7 +58,7 @@
 			<!-- {{ page.url }} -->
 			<a href="/" class="span-3 {% if page.url == '/' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Home</a>
 			<a href="/about.html" class="span-3 {% if page.url == '/about' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Themen</a>
-			<a href="/termine.html" class="span-3 {% if page.url == '/termine' or page.url < '/a' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Termine</a>
+			<a href="/termine.html" class="span-3 {% if page.url == '/termine' or page.url >= '/2012' and page.url <= '/2020' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Termine</a>
 			<a href="/lightningtalks.html" class="span-3 {% if page.url == '/lightningtalks' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Mitmachen</a>
 			<a href="/sponsoren.html" class="span-3 {% if page.url == '/sponsoren' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Unterstützen</a>
 			<a href="/kontakt.html" class="span-3 {% if page.url == '/kontakt' %}{{ 'active' }}{% else %}{{ 'inactive' }}{% endif %}">Kontakt</a>

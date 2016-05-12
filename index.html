@@ -34,7 +34,7 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
-		{% for post in site.categories.frontpage reversed limit:2 %}
+		{% for post in site.categories.frontpage reversed limit:3 %}
 			<div class="event-teaser span-8" style="margin-right: 60px; max-width: 250px;">
 				<strong style="font-size: 108%;">{{ post.frontpage_line1 }}</strong><br/>
 				<a href="{{ post.url }}">
@@ -73,11 +73,12 @@ title: user group for ios, android, html5
 			&nbsp;|&nbsp; <a href="https://www.eventbrite.de/e/android-wearable-4-hour-venture-hackathon-tickets-15489913749" target="_blank">Anmeldung auf Eventbrite</a>
 		</div>
 		-->
-
+		<!--
 		<div class="span-8 last">
 			{% include _sidebar_newsletter_light.html %}
 			{% include _sidebar_facebook.html %}
 		</div>
+		-->
 	</div>
 
 	<!--

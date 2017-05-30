@@ -171,6 +171,7 @@ a.subscribe:hover {
 	.content {
 		padding-top: 20px;
 		padding-bottom: 20px;
+		min-height: 100vh;
 	}
 
 	.content .container {
@@ -201,7 +202,6 @@ a.subscribe:hover {
 	.footer {
 		padding-top: 20px;
 		padding-bottom: 20px;
-		background-color: #d9d9d9;
 	}
 
 	.footer .container span {
@@ -282,4 +282,3 @@ a.subscribe:hover {
 		width: 70px;
 	}
 }
-

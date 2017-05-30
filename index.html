@@ -34,7 +34,7 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
-		{% for post in site.categories.frontpage reversed limit:2 %}{% if post.title == "Mobile Stammtisch Köln" %}
+		{% for post in site.categories.frontpage reversed limit:2 %}
 			<div class="event-teaser span-8" style="margin-right: 30px; max-width: 280px;">
 				<strong style="font-size: 108%;">{{ post.frontpage_line1 }}</strong><br/>
 				<a href="{{ post.url }}">
@@ -55,54 +55,12 @@ title: user group for ios, android, html5
 					&nbsp;|&nbsp; <a href="{{ post.meetup }}" target="_blank">Meetup</a>
 				{% endif %}
 			</div>
-		{% endif %}{% endfor %}
+		{% endfor %}
 
-		<div class="event-teaser span-16" style="margin-right: 30px; max-width: 280px;">
-			<strong>Donnerstag, 27. April</strong>
-			<a href="http://hackathon.mobile.cologne/">
-				<h1>
-					<span class="date">Invent. Develop. Win.</span>
-					<span class="location">Alexa Hackathon</span>
-				</h1>
-			</a>
-
-			Entwickle alleine oder im Team neue Ideen für Amazons <strong>Alexa</strong>.
-			Setzt eure Idee als Prototyp innerhalb von vier Stunden um.
-			Du kannst bei anderen Ideen mitmachen oder deine eigene mitbringen und
-			am Anfang des hackathons vorstellen.
-			Wir beginnen den Hackathon mit einer Einführung und haben wieder mehrere
-			Mentoren die dich bei Fragen unterstützen können.<br/>
-			<a href="http://hackathon.mobile.cologne/">Mehr Infos</a>
-			&nbsp;|&nbsp; <a href="https://www.eventbrite.de/e/alexa-hackathon-a-four-hour-venture-tickets-32572984674" target="_blank">Anmeldung auf Eventbrite</a>
-		</div>
-
-		{% for post in site.categories.frontpage reversed limit:2 %}{% if post.title == "Public Viewing: Google IO Extended" %}
-			<div class="event-teaser span-8" style="margin-right: 30px; max-width: 280px;">
-				<strong style="font-size: 108%;">{{ post.frontpage_line1 }}</strong><br/>
-				<a href="{{ post.url }}">
-					<h1>
-						<span class="date">{{ post.frontpage_line2 }}</span>
-						<span class="location" style="">{{ post.frontpage_line3 }}</span>
-					</h1>
-				</a>
-				{{ post.frontpage_line4 }}<br/>
-				<a href="{{ post.url }}">Mehr Infos</a>
-				{% if post.doodle %}
-					&nbsp;|&nbsp; <a href="{{ post.doodle }}" target="_blank">Doodle</a>
-				{% endif %}
-				{% if post.xing %}
-					&nbsp;|&nbsp; <a href="{{ post.xing }}" target="_blank">Xing</a>
-				{% endif %}
-				{% if post.meetup %}
-					&nbsp;|&nbsp; <a href="{{ post.meetup }}" target="_blank">Meetup</a>
-				{% endif %}
-			</div>
-		{% endif %}{% endfor %}
-
-		<!--<div class="span-8 last">
+		<div class="span-8 last">
 			{% include _sidebar_newsletter_light.html %}
 			{% include _sidebar_facebook.html %}
-		</div>-->
+		</div>
 	</div>
 
 	<!--
@@ -141,40 +99,3 @@ title: user group for ios, android, html5
 		</div>
 	</div>
 	-->
-
-	<div style="text-align: center; margin: 80px;">
-		<h2><a href="https://thisiscologne.tumblr.com/" target="_blank">#thisiscologne powered by tumblr</a></h2>
-	</div>
-	<div class="container">
-		<style type="text/css">
-			.tmblr-iframe {
-				display: none;
-			}
-			ol.tumblr_posts {
-				list-style: none;
-				margin: 0;
-				padding: 0;
-			}
-			.tumblr_post, .tumblr_caption {
-				display: none;
-			}
-			li.tumblr_photo_post:first-child, li.tumblr_photo_post:nth-child(2),
-			li.tumblr_photo_post:nth-child(3), li.tumblr_photo_post:nth-child(4),
-			li.tumblr_photo_post:nth-child(5), li.tumblr_photo_post:nth-child(6),
-			li.tumblr_photo_post:nth-child(7), li.tumblr_photo_post:nth-child(8) {
-				display: inline;
-				margin: 0;
-				padding: 0;
-			}
-			img.tumblr_photo {
-				width: 220px;
-				height: 220px;
-				margin-right: 10px;
-				margin-bottom: 10px;
-			}
-		</style>
-		<div style="text-align: center">
-			<script src="https://thisiscologne.tumblr.com/js" type="text/javascript"></script>
-		</div>
-	</div>
-</div>

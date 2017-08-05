@@ -8,7 +8,7 @@
 </h3>
 -->
 
-<form id="google-subscribe-form" action="http://groups.google.com/group/mobilecologne/boxsubscribe"
+<form id="google-subscribe-form" action="https://groups.google.com/group/mobilecologne/boxsubscribe"
       style="margin: 0 0 0 20px; padding: 0;">
 	<span class="small">E-Mail:</span>
 	<input type="mail" name="email" value="" />
@@ -24,7 +24,7 @@
 
 <script type="text/javascript">
 	// webinterface to test and fix yahoo query
-	// http://developer.yahoo.com/yql/console/?q=select%20content%20from%20html%20where%20url%20%3D%20%22http%3A%2F%2Fgroups.google.com%2Fgroup%2Fmobilecologne%22%20and%20xpath%20%3D%20%22%2F%2Fdiv%5B%40id%3D'moduleGroupInfo'%5D%2Fdiv%2Ftable%2Ftr%5B1%5D%2Ftd%2Fp%22
+	// https://developer.yahoo.com/yql/console/?q=select%20content%20from%20html%20where%20url%20%3D%20%22https%3A%2F%2Fgroups.google.com%2Fgroup%2Fmobilecologne%22%20and%20xpath%20%3D%20%22%2F%2Fdiv%5B%40id%3D'moduleGroupInfo'%5D%2Fdiv%2Ftable%2Ftr%5B1%5D%2Ftd%2Fp%22
 
 	function receiveGoogleGroupMemberCount(data) {
 		if (typeof data.query.results.p == 'string' && parseInt(data.query.results.p)) {
@@ -35,7 +35,7 @@
 
 	$(document).ready(function() {
 		//var script = document.createElement('script');
-		//script.src = "http://query.yahooapis.com/v1/public/yql?q=select%20content%20from%20html%20where%20url%20%3D%20%22http%3A%2F%2Fgroups.google.com%2Fgroup%2Fmobilecologne%22%20and%20xpath%20%3D%20%22%2F%2Fdiv%5B%40id%3D'moduleGroupInfo'%5D%2Fdiv%2Ftable%2Ftr%5B1%5D%2Ftd%2Fp%22&format=json&callback=receiveGoogleGroupMemberCount";
+		//script.src = "https://query.yahooapis.com/v1/public/yql?q=select%20content%20from%20html%20where%20url%20%3D%20%22https%3A%2F%2Fgroups.google.com%2Fgroup%2Fmobilecologne%22%20and%20xpath%20%3D%20%22%2F%2Fdiv%5B%40id%3D'moduleGroupInfo'%5D%2Fdiv%2Ftable%2Ftr%5B1%5D%2Ftd%2Fp%22&format=json&callback=receiveGoogleGroupMemberCount";
 		//document.head.appendChild(script);
 	});
 </script>

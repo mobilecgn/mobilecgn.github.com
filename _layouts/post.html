@@ -10,15 +10,7 @@ layout: default
 		</div>
 
 		<div>
-			{% assign pageDateString = page.date | date: '%Y-%m-%d' %}
-			{% assign siteTimeString = site.time | date: '%Y-%m-%d' %}
-
-			{% if pageDateString < siteTimeString %}
-			<h1>Rückblick {{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>
-			{% else %}
 			<h1>{{ page.date | date: "%d.%m.%Y" }} <span class="loud">- {{ page.title }}</span></h1>
-			{% endif %}
-
 			{{ content }}
 		</div>
 

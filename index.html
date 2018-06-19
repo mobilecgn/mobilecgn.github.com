@@ -34,8 +34,8 @@ title: user group for ios, android, html5
 
 <div class="content">
 	<div class="container">
-		{% for post in site.categories.frontpage reversed limit:2 %}
-			<div class="event-teaser span-8" style="margin-right: 30px; max-width: 280px;">
+		{% for post in site.categories.frontpage reversed limit:1 %}
+			<div class="event-teaser span-16" style="box-sizing: border-box; padding-right: 30px;">
 				<strong style="font-size: 108%;">{{ post.frontpage_line1 }}</strong><br/>
 				<a href="{{ post.url }}">
 					<h1>

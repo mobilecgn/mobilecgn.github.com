@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Mobile Performance"
-categories: ["frontpage"]
+
 frontpage_line1: "Montag, 11. Juni"
 frontpage_line2: "Mobile Performance"
 frontpage_line3: "Special"
@@ -9,108 +9,84 @@ frontpage_line4: "Gerne möchten wir euch zum nächsten Vortragsabend in die Rä
 themen: ["Mobile Performance: these Simple Tricks Your Users Will Love"]
 all_events_title: "Vortragsabend: Mobile Performance"
 all_events_text: Mo. 11. Juni 2018 im akkuraum
-doodle: https://doodle.com/poll/bhp2z54pawtzuv24
-xing: https://www.xing.com/events/-1953954
-meetup: https://www.meetup.com/de-DE/mobilecgn/events/251401567/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  doodle: https://doodle.com/poll/bhp2z54pawtzuv24
+  xing: https://www.xing.com/events/-1953954
+  meetup: https://www.meetup.com/de-DE/mobilecgn/events/251401567/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-13">
-	<p>
-		Gerne möchten wir euch
-		<strong>am Montag, den 11. Juni ab 18:30 Uhr</strong> in den
-		<a href="https://www.akkuraum.com/"><strong>akkuraum</strong></a> einladen.
-		Diesmal mit einem spannenden Abend rum um das Thema Mobile Performance.
-		Wir freuen uns auf einen Talk von Doug Sillars.
-	</p>
-	<br/>
+Gerne möchten wir euch
+**am Montag, den 11. Juni ab 18:30 Uhr** in den
+<a href="https://www.akkuraum.com/">**akkuraum**</a> einladen.
+Diesmal mit einem spannenden Abend rum um das Thema Mobile Performance.
+Wir freuen uns auf einen Talk von Doug Sillars.
 
-	<p>
-		<strong>Mobile Performance: these Simple Tricks Your Users Will Love</strong>
-	</p>
-	<p>
-		(English below)
-	</p>
+**Mobile Performance: these Simple Tricks Your Users Will Love**
 
-	<p>
-		<strong><a href="https://dougsillars.com/" target="_blank">Doug Sillars</a></strong>
-		(<strong><a href="https://twitter.com/dougsillars" target="_blank">@dougsillars</a></strong>)
-		zeigt Tools, best Practices und Erfolgsgeschichten,
-		mit denen er in seinen bisherigen Projekten die Performance verbessert hat.
-	</p>
-	<p>
-		Doug ist Freelance Developer Advocate und Autor des Buchs
-		"High Performance Android Apps" aus dem O'Reilly-Verlag. 
-	</p>
-	<p>
-		Der Vortrag ist in Englisch.
-		Mehr über Doug unter <a href="https://dougsillars.com/" target="_blank">dougsillars.com</a>.
-	</p>
-	<br/>
+(English below)
 
-	<p>
-		English:
-	</p>
-	<p>
-		<strong><a href="https://dougsillars.com/" target="_blank">Doug Sillars</a></strong>
-		(<strong><a href="https://twitter.com/dougsillars" target="_blank">@dougsillars</a></strong>)
-		will show Tools, best Practices and success stories,
-		with he used in his projects to improve their performance.
-	</p>
-	<p>
-		Doug is Freelance Developer Advocate and Author of the O'Reilly book
-		"High Performance Android Apps".
-	</p>
-	<p>
-		He will give his talk in English.
-		More about Doug on <a href="https://dougsillars.com/" target="_blank">dougsillars.com</a>.
-	</p>
-	<br/>
+**<a href="https://dougsillars.com/" target="_blank">Doug Sillars</a>**
+(**<a href="https://twitter.com/dougsillars" target="_blank">@dougsillars</a>**)
+zeigt Tools, best Practices und Erfolgsgeschichten,
+mit denen er in seinen bisherigen Projekten die Performance verbessert hat.
 
-	<p>
-		<strong>Über den akkuraum</strong>
-	</p>
-	<p>
-		Wir danken dem <a href="https://www.akkuraum.com/">akkuraum</a>
-		für seine Gastfreundschaft.
-		Der akkuraum ist ein Coworking Space und ein Agentur-Collective im Agnesviertel.
-	</p>
-	<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<a href="https://www.akkuraum.com/"><img src="/static/images/akkuraum.png" alt="akkuraum" width="204" height="100"></a>
-	</p><br/>
+Doug ist Freelance Developer Advocate und Autor des Buchs
+"High Performance Android Apps" aus dem O'Reilly-Verlag. 
 
-</div>
-<div class="clearfix"></div>
+Der Vortrag ist in Englisch.
+Mehr über Doug unter <a href="https://dougsillars.com/" target="_blank">dougsillars.com</a>.
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2"><p>~ 18:30 Uhr</p></div>
-	<div class="span-13 last">
-        <p>
-            <strong>Opening &amp; come together</strong>
-        </p>
-    </div>
-	<div class="span-2"><p>~ 19:00 Uhr</p></div>
-	<div class="span-13 last">
-		<p>
-			<strong>Mobile Performance: these Simple Tricks Your Users Will Love</strong><br/>
-			Doug Sillars
-		</p>
-	</div>
-	<div class="span-2"><p>danach</p></div>
-	<div class="span-13 last">
-		<p>
-			Diskutieren, austauschen, Bier trinken, etc.
-		</p>
-	</div>
-</div>
-<div class="clearfix"></div><br/>
+English:
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p><br/>
+**<a href="https://dougsillars.com/" target="_blank">Doug Sillars</a>**
+(**<a href="https://twitter.com/dougsillars" target="_blank">@dougsillars</a>**)
+will show Tools, best Practices and success stories,
+with he used in his projects to improve their performance.
 
-{% include _location_akkuraum.html %}
+Doug is Freelance Developer Advocate and Author of the O'Reilly book
+"High Performance Android Apps".
+
+He will give his talk in English.
+More about Doug on <a href="https://dougsillars.com/" target="_blank">dougsillars.com</a>.
+
+**Über den akkuraum**
+
+Wir danken dem <a href="https://www.akkuraum.com/">akkuraum</a>
+für seine Gastfreundschaft.
+Der akkuraum ist ein Coworking Space und ein Agentur-Collective im Agnesviertel.
+
+<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://www.akkuraum.com/"><img src="/static/images/akkuraum.png" alt="akkuraum" width="204" height="100" /></a>
+</p>
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>**Opening &amp; come together**</td>
+  </tr>
+  <tr>
+    <td>~ 19:00 Uhr</td>
+    <td>
+      <p>
+        **Mobile Performance: these Simple Tricks Your Users Will Love**<br/>
+        Doug Sillars
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_akkuraum/>

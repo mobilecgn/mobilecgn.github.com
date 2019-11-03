@@ -1,30 +1,28 @@
 ---
-layout: post
+type: event
 title: "Mobile Stammtisch"
-categories: ["frontpage"]
+
 frontpage_headline: "In geselliger Runde gleichgesinnte kennenlernen, angeregt diskutieren oder einfach ein wenig Small-Talk bei einem kühlem Blonden halten."
 frontpage_headline_date: Do. 14. August
 frontpage_headline_location: Biergarten am Aachener Weiher
 all_events_title: "Mobile Stammtisch"
 all_events_text: Do. 14. August 2014 am Aachener Weiher
-doodle: https://www.doodle.com/9dr6db2cumpnbtye
-#xing: https://www.xing.com/events/-1349588
-#meetup: https://www.meetup.com/mobilecgn/events/176752792/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/3173
+
+rvspLinks:
+  doodle: https://www.doodle.com/9dr6db2cumpnbtye
+  #xing: https://www.xing.com/events/-1349588
+  #meetup: https://www.meetup.com/mobilecgn/events/176752792/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/3173
 ---
 
-<p>
-	Wir möchten euch zum Stammtisch, <strong>ab 18:30 Uhr</strong>, einladen.
-</p>
-<p>
-	In geselliger Runde gleichgesinnte kennenlernen, angeregt diskutieren oder einfach ein wenig Small-Talk bei einem kühlem Blonden halten.
-</p>
+Wir möchten euch zum Stammtisch, **ab 18:30 Uhr**, einladen.
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung (Reservierung) an: &nbsp;
-	{% include _content_register.html %}
-</p>
+In geselliger Runde gleichgesinnte kennenlernen, angeregt diskutieren oder einfach ein wenig Small-Talk bei einem kühlem Blonden halten.
 
-{% include _location_aachenerweiher.html %}
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung (Reservierung) an: &nbsp;
+<RegisterLinks />
+
+<Location_aachenerweiher/>

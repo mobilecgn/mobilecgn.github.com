@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Neues in Android 6.0 aka Marshmallow"
-categories: ["frontpage"]
+
 frontpage_line1: "Android Vortragsabend:"
 frontpage_line2: "Do, 10. September"
 frontpage_line3: "im cowoco"
@@ -9,48 +9,50 @@ frontpage_line4: "Auf der Google IO stellte Google die neue <strong>Android Vers
 themen: ["Neues in Android 6.0 aka Marshmallow"]
 all_events_title: "Vortragsabend: Android 6.0 aka Marshmallow"
 all_events_text: Do. 10. September 2015 im Coworking Cologne
-doodle: https://doodle.com/poll/gq479qx55tizza9f
-xing: https://www.xing.com/events/-1597349
-meetup: https://www.meetup.com/de/mobilecgn/events/225183076/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  doodle: https://doodle.com/poll/gq479qx55tizza9f
+  xing: https://www.xing.com/events/-1597349
+  meetup: https://www.meetup.com/de/mobilecgn/events/225183076/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-14">
-	<p>
-		Wir hoffen, Ihr habt euch alle in der längeren Sommerpause gut erholt.
-		Gerne laden wir euch zum nächsten Vortragsabend am Donnerstag,
-		10. September, ab 19 Uhr, einladen.
-	<p>
-		Auf der Google IO stellte Google die neue Android Version Android M vor
-		und hat kürzlich die finale Version und den Namen veröffentlicht.
-	</p>
-	<p>
-		<a href="https://twitter.com/passsy" target="_blank">Pascal Welsch</a> von
-		<a href="https://www.grandcentrix.net/" target="_blank">Grandcentrix</a>
-		hat sich die neuste Developer Preview von Android 6.0 aka Marshmallow
-		angeschaut und stellt die Neuerungen vor.
-		Was bedeuten die neuen Berechtigungen für Entwickler und Projekte.
-	</p>
-<div class="clearfix"></div>
+Wir hoffen, Ihr habt euch alle in der längeren Sommerpause gut erholt.
+Gerne laden wir euch zum nächsten Vortragsabend am Donnerstag,
+10. September, ab 19 Uhr, einladen.
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2">19:00 Uhr</div>
-	<div class="span-13 last">Opening &amp; come together</div>
-	<div class="span-2">19:15 Uhr</div>
-	<div class="span-13 last">
-			<strong>Neues in Android 6.0 aka Marshmallow von Pascal Welsch, Grandcentrix</strong>
-	</div>
-	<div class="span-2">danach</div>
-	<div class="span-13 last">Diskutieren, austauschen, Bier trinken, etc.</div>
-</div>
-<div class="clearfix"></div><br/>
+Auf der Google IO stellte Google die neue Android Version Android M vor
+und hat kürzlich die finale Version und den Namen veröffentlicht.
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p>
+<a href="https://twitter.com/passsy" target="_blank">Pascal Welsch</a> von
+<a href="https://www.grandcentrix.net/" target="_blank">Grandcentrix</a>
+hat sich die neuste Developer Preview von Android 6.0 aka Marshmallow
+angeschaut und stellt die Neuerungen vor.
+Was bedeuten die neuen Berechtigungen für Entwickler und Projekte.
 
-{% include _location_bottfabrik.html %}
+### Agenda
+
+<table>
+  <tr>
+    <td>19:00 Uhr</td>
+    <td>Opening &amp; come together</td>
+  </tr>
+  <tr>
+    <td>19:15 Uhr</td>
+    <td>
+      **Neues in Android 6.0 aka Marshmallow von Pascal Welsch, Grandcentrix**
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_bottfabrik/>

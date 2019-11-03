@@ -1,30 +1,24 @@
 ---
-layout: post
+type: event
 title: Glühwein.apk meets Glühwein.app
 all_events_title: Glühwein.apk meets Glühwein.app
 all_events_text: Do. 13. Dezember 2012
 ---
 
-<p>
-	Zum Ausklang des Jahres verlegen wir unseren Stammtisch auf den Weihnachtsmarkt.
-	Wer mag schaut einfach rein, wir sind sicher lang genug da um auch später reinzuschauen.
-</p>
-<p>
-    Wir treffen uns <strong>ab 19 Uhr</strong> auf dem Weihnachtsmarkt „Markt der Engel“ am Neumarkt
-    und freuen uns auch über Nachzügler und Kurzentschlossene. :-)
-</p>
-<p>
-	<strong>Der Glühweinstand
-    <a href="https://www.markt-der-engel.de/download/Besucherplan-2012_Markt-der-Engel_Neumarkt-Koeln.jpg" target="_blank">„Gabriel's“ (Stand 20)</a></strong>
-    am äußerem Ende Richtung Mittelstraße.
-    Wir versuchen uns in der Nähe von Stand 19 aufzuhalten, also Richtung Weihnachtsmarkt.
-	Ihr könnt uns auch kurzfristig über mail oder <a href="https://twitter.com/mobilecgn" target="_blank">twitter</a> anschreiben.
-</p>
-<p>
-	Allen die es nicht mehr schaffen wünschen wir auf diesem Weg bereits schöne und insbesondere
-	ruhige Feiertage und einen guten Start ins Jahr 2013!
-</p>
-<p>
-	Euer mobile.cologne Team,<br/>
-	Lars und Christoph
-</p>
+Zum Ausklang des Jahres verlegen wir unseren Stammtisch auf den Weihnachtsmarkt.
+Wer mag schaut einfach rein, wir sind sicher lang genug da um auch später reinzuschauen.
+
+Wir treffen uns **ab 19 Uhr** auf dem Weihnachtsmarkt „Markt der Engel“ am Neumarkt
+und freuen uns auch über Nachzügler und Kurzentschlossene. :-)
+
+**Der Glühweinstand
+<a href="https://www.markt-der-engel.de/download/Besucherplan-2012_Markt-der-Engel_Neumarkt-Koeln.jpg" target="_blank">„Gabriel's“ (Stand 20)</a>**
+am äußerem Ende Richtung Mittelstraße.
+Wir versuchen uns in der Nähe von Stand 19 aufzuhalten, also Richtung Weihnachtsmarkt.
+Ihr könnt uns auch kurzfristig über mail oder <a href="https://twitter.com/mobilecgn" target="_blank">twitter</a> anschreiben.
+
+Allen die es nicht mehr schaffen wünschen wir auf diesem Weg bereits schöne und insbesondere
+ruhige Feiertage und einen guten Start ins Jahr 2013!
+
+Euer mobile.cologne Team,<br/>
+Lars und Christoph

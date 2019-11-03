@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Augmented Reality Indoor navigation mit Google Tango"
-categories: ["frontpage"]
+
 frontpage_line1: "Donnerstag, 12. Januar"
 frontpage_line2: "Indoor Navigation mit"
 frontpage_line3: "Augmented Reality"
@@ -9,91 +9,84 @@ frontpage_line4: "Wir starten das Jahr mit einem spannendem Abend bei Cologne In
 themen: ["Augmented Reality Indoor navigation mit Google Tango"]
 all_events_title: "Vortragsabend: AR Indoor Navigation"
 all_events_text: Do. 12. Januar 2017 bei Cologne Intelligence
-doodle: https://doodle.com/poll/55dbzgt4z9yzm2ce
-xing: https://www.xing.com/events/-1766198
-meetup: https://www.meetup.com/mobilecgn/events/236675492/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  doodle: https://doodle.com/poll/55dbzgt4z9yzm2ce
+  xing: https://www.xing.com/events/-1766198
+  meetup: https://www.meetup.com/mobilecgn/events/236675492/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-13">
-	<p>
-		Wir starten das Jahr mit einem spannendem Abend in Köln-Kalk.
-        Hierzu laden wir euch am
-		<strong>Donnerstag, den 12. Januar ab 18:30 Uhr</strong> zur
-		<a href="https://www.cologne-intelligence.de/ci-mobile-minds/">Cologne Intelligence</a> ein.
-	</p>
-	<p>
-		Der <strong>Vortrag Augmented Reality Indoor navigation mit Google Tango</strong>
-        wird ergänzt um die Möglichkeit die Umsetzung <strong>vor Ort live auszuprobieren</strong>.
-        Wir sind gespannt und freuen uns auf einen anregenden Abend.
-	</p><br/>
+Wir starten das Jahr mit einem spannendem Abend in Köln-Kalk.
+Hierzu laden wir euch am
+**Donnerstag, den 12. Januar ab 18:30 Uhr** zur
+<a href="https://www.cologne-intelligence.de/ci-mobile-minds/">Cologne Intelligence</a> ein.
 
-	<p>
-		<strong>Indoor Navigation mit Augmented Reality</strong>
-	</p>
-	<p>
-		Motion Tracking, Area Learning und Depth Perception sind die Hauptfeatures
-		von Google Tango.
- 		Die Einsatzmöglichkeiten dieser Technologien werden im Vortrag
-		am Beispiel der Indoor Navigation gezeigt.
-		Die Anwendung beschränkt sich nicht auf eine bloße Navigation:
-		Über ein webbasiertes CMS können Points of Interest erstellt und
-		auch Augmentierungen angelegt und gepflegt werden.
-	</p>
-    <p>
-        Im Büro von CI kann im Anschluss an den Vortrag
-        die Umsatzung Live und in Farbe ausprobiert werden.
-        Getränkte und Snacks stehen ebenfalls für euch zur Verfügung.
-    </p>
+Der **Vortrag Augmented Reality Indoor navigation mit Google Tango**
+wird ergänzt um die Möglichkeit die Umsetzung **vor Ort live auszuprobieren**.
+Wir sind gespannt und freuen uns auf einen anregenden Abend.
 
-	<p>
-		<strong>Über Cologne Intelligence / Mobile Minds</strong>
-	</p>
-	<p>
-		Wir danken <a href="https://www.cologne-intelligence.de/ci-mobile-minds/">Cologne Intelligence</a>
-        für Ihre Gastfreundschaft.
-        Cologne Intelligence betreut mit über 100 Mitarbeitern ihre Kunden
-        von ersten strategischen Überlegung bis hin zur Umsetzung von IT-Anwendungen.
-        Das "Mobile Minds"-Team von CI entwickelt Business-Anwendungen
-        für Android, iOS, Windows Mobile sowie hybrid.
-	</p>
-	<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<a href="https://www.cologne-intelligence.de/ci-mobile-minds/"><img src="/static/images/cologneintelligence.jpg" alt="Cologne Intelligence" width="208" height="94"></a>
-	</p><br/>
-</div>
-<div class="clearfix"></div>
+### Indoor Navigation mit Augmented Reality**
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2"><p>~ 18:30 Uhr</p></div>
-	<div class="span-13 last">
-        <p>
-            <strong>Opening &amp; come together</strong>
-        </p>
-        <p>
-            Für Getränke und Snacks ist gesorgt.
-        </p>
-    </div>
-	<div class="span-2"><p>~ 19:00 Uhr</p></div>
-	<div class="span-13 last">
-		<p>
-			<strong>Augmented Reality Indoor navigation mit Google Tango</strong><br/>
-			Mit Till Krempel und Javier Rodriguez Puigvert
-		</p>
-        <p>
-            <strong>Ausprobieren der AR Lösung von CI</strong>
-        </p>
-	</div>
-	<div class="span-2">danach</div>
-	<div class="span-13 last">Diskutieren, austauschen, Bier trinken, etc.</div>
-</div>
-<div class="clearfix"></div><br/>
+Motion Tracking, Area Learning und Depth Perception sind die Hauptfeatures
+von Google Tango.
+Die Einsatzmöglichkeiten dieser Technologien werden im Vortrag
+am Beispiel der Indoor Navigation gezeigt.
+Die Anwendung beschränkt sich nicht auf eine bloße Navigation:
+Über ein webbasiertes CMS können Points of Interest erstellt und
+auch Augmentierungen angelegt und gepflegt werden.
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p><br/>
+Im Büro von CI kann im Anschluss an den Vortrag
+die Umsatzung Live und in Farbe ausprobiert werden.
+Getränkte und Snacks stehen ebenfalls für euch zur Verfügung.
 
-{% include _location_cologneintelligence.html %}
+### Über Cologne Intelligence / Mobile Minds
+
+Wir danken <a href="https://www.cologne-intelligence.de/ci-mobile-minds/">Cologne Intelligence</a>
+für Ihre Gastfreundschaft.
+Cologne Intelligence betreut mit über 100 Mitarbeitern ihre Kunden
+von ersten strategischen Überlegung bis hin zur Umsetzung von IT-Anwendungen.
+Das "Mobile Minds"-Team von CI entwickelt Business-Anwendungen
+für Android, iOS, Windows Mobile sowie hybrid.
+
+<a href="https://www.cologne-intelligence.de/ci-mobile-minds/"><img src="/static/images/cologneintelligence.jpg" alt="Cologne Intelligence" width="208" height="94" /></a>
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>
+      <p>
+        **Opening &amp; come together**
+      </p>
+      <p>
+        Für Getränke und Snacks ist gesorgt.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>~ 19:00 Uhr</td>
+    <td>
+      <p>
+        **Augmented Reality Indoor navigation mit Google Tango**<br/>
+        Mit Till Krempel und Javier Rodriguez Puigvert
+      </p>
+      <p>
+        **Ausprobieren der AR Lösung von CI**
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_cologneintelligence/>

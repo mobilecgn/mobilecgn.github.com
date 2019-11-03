@@ -1,21 +1,51 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+export default function IndexPage() {
 
-export default IndexPage
+  const data = useStaticQuery(graphql`
+    query NextEvents {
+      allSitePage(
+        filter: {context: {frontmatter: {type: {eq: "event"}}}},
+        sort: {fields: path, order: DESC}
+      ) {
+        edges {
+          node {
+            id
+            path
+            context {
+              frontmatter {
+                type
+                title
+                frontpage_line1
+                frontpage_line2
+                frontpage_line3
+                frontpage_line4
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  return (
+    <Layout>
+      <SEO title="Home" />
+
+      {data.allSitePage.edges.map((edge, index, { length }) => (
+        <div style={{ border: '3px solid black' }}>
+          <div>{edge.node.context.frontmatter.frontpage_line1}</div>
+          <h2><Link to={edge.node.path}>{length - index}. {edge.node.context.frontmatter.title}</Link></h2>
+          <div>{edge.node.context.frontmatter.frontpage_line2}</div>
+          <div>{edge.node.context.frontmatter.frontpage_line3}</div>
+          <div dangerouslySetInnerHTML={{ __html: edge.node.context.frontmatter.frontpage_line4 }} />
+        </div>
+      ))}
+
+    </Layout>
+  )
+}

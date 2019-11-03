@@ -7,11 +7,17 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { MDXProvider } from "@mdx-js/react"
 
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+import RegisterLinks from '../components/RegisterLinks'
+import { PageProvider } from "../context/PageContext"
+
+const Layout = (props) => {
+  const { children } = props
+
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -21,6 +27,8 @@ const Layout = ({ children }) => {
       }
     }
   `)
+
+  const components = { RegisterLinks }
 
   return (
     <>
@@ -33,7 +41,15 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <main>
+
+          <PageProvider value={props.pageContext}>
+            <MDXProvider components={components}>
+              {children}
+            </MDXProvider>
+          </PageProvider>
+
+        </main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

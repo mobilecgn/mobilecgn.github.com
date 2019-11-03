@@ -23,7 +23,6 @@ Ein Technologie-Feuerwerk haben Apple und Google auf ihren Hausmessen losgelasse
 
 ### Anmeldung
 
-Bitte meldet euch für eine grobe Planung (Reservierung) an: &nbsp;
-<RegisterLinks />
+Bitte meldet euch für eine grobe Planung (Reservierung) an: <RegisterLinks />
 
 <Location_gaffel/>

@@ -61,8 +61,7 @@ gründete den LinuxTag, Europas größte Open Source Konferenz.
 
 ### Anmeldung
 
-Wenn ihr mögt meldet euch an damit wir grob planen können: &nbsp;
-<RegisterLinks />
+Wenn ihr mögt meldet euch an damit wir grob planen können: <RegisterLinks />
 
 <Location_bottfabrik/>
 

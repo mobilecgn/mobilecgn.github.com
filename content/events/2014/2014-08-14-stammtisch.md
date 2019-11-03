@@ -22,7 +22,6 @@ In geselliger Runde gleichgesinnte kennenlernen, angeregt diskutieren oder einfa
 
 ### Anmeldung
 
-Bitte meldet euch für eine grobe Planung (Reservierung) an: &nbsp;
-<RegisterLinks />
+Bitte meldet euch für eine grobe Planung (Reservierung) an: <RegisterLinks />
 
 <Location_aachenerweiher/>

@@ -21,7 +21,6 @@ Neben dem ein oder anderem Bier, werden wir auch die Speisekarte in Augenschein 
 
 ### Anmeldung
 
-Bitte meldet euch für eine grobe Planung (Reservierung) an: &nbsp;
-<RegisterLinks />
+Bitte meldet euch für eine grobe Planung (Reservierung) an: <RegisterLinks />
 
 <Location_frueh/>

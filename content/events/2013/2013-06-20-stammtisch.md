@@ -26,7 +26,6 @@ genauer in Augenschein nehmen.
 
 ### Anmeldung
 
-Wenn ihr mögt meldet euch an damit wir grob planen können: &nbsp;
-<RegisterLinks />
+Wenn ihr mögt meldet euch an damit wir grob planen können: <RegisterLinks />
 
 <Location_frueh/>

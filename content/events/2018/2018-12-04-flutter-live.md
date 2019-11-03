@@ -60,7 +60,6 @@ Mobilisierung ihrer Geschäftsprozesse.
 
 ### Anmeldung
 
-Bitte meldet euch für eine grobe Planung an: &nbsp;
-<RegisterLinks />
+Bitte meldet euch für eine grobe Planung an: <RegisterLinks />
 
 <Location_mobile2b/>

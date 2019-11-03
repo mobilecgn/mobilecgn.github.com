@@ -56,8 +56,7 @@ twittert als <a href="https://twitter.com/koos" target="_blank">@koos</a>.
 
 ### Anmeldung
 
-Wenn ihr mögt meldet euch an damit wir grob planen können: &nbsp;
-<RegisterLinks />
+Wenn ihr mögt meldet euch an damit wir grob planen können: <RegisterLinks />
 
 <Location_triagens/>
 

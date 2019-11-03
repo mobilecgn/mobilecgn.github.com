@@ -10,6 +10,10 @@ themen: ["Test driven refactoring", "Agiles arbeiten und führen & Agiles arbeit
 all_events_title: "Vortragsabend: Test driven refactoring & Agiles arbeiten"
 all_events_text: Do. 10. Oktober 2019
 
+event:
+  start: 2019-10-10
+  end: 2019-10-10
+
 rvspLinks:
   #doodle: https://doodle.com/poll/abaw92hinuizk46e
   #xing: https://www.xing.com/events/-2110252

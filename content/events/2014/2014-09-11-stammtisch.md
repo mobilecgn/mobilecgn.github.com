@@ -22,7 +22,6 @@ Ein großteil der iOS 8 Features ist bereits auf der WWDC angekündigt worden. O
 
 ### Anmeldung
 
-Bitte meldet euch für eine grobe Planung (Reservierung) an: &nbsp;
-<RegisterLinks />
+Bitte meldet euch für eine grobe Planung (Reservierung) an: <RegisterLinks />
 
 <Location_altesbrauhaus/>

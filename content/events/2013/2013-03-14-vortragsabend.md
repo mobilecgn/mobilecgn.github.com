@@ -70,8 +70,7 @@ Vielen Dank <a href="https://twitter.com/thomashop2e">Thomas</a> für die Aufzei
 
 ### Anmeldung
 
-Wenn ihr mögt meldet euch an damit wir grob planen können: &nbsp;
-<RegisterLinks />
+Wenn ihr mögt meldet euch an damit wir grob planen können: <RegisterLinks />
 
 <Location_startplatz/>
 

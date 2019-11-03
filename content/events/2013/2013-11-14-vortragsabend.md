@@ -65,7 +65,6 @@ David Linsin zeigt Möglichkeiten zum **automatisierten Bauen** und Verteilen vo
 
 ### Anmeldung
 
-Wenn ihr mögt meldet euch an damit wir grob planen können:&nbsp;
-<RegisterLinks />
+Wenn ihr mögt meldet euch an damit wir grob planen können: <RegisterLinks />
 
 <Location_sevenval/>

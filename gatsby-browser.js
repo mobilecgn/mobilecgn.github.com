@@ -5,3 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+
+import moment from 'moment'
+import 'moment/locale/de'
+
+moment.locale('de')

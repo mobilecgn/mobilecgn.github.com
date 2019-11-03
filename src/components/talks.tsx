@@ -14,7 +14,7 @@ export default function Talks({ talks }: { talks: Talk[] }) {
   if (!talks) {
     return null
   }
-  return <ul>{talks.map((talk, index) => <li key={index}><EventTalk talk={talk} /></li>)}</ul>
+  return <ul>{talks.map((talk, index) => <li key={index}><Talk talk={talk} /></li>)}</ul>
 }
 
 function Talk({ talk }: { talk: Talk }): any {

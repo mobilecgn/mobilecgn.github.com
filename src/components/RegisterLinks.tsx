@@ -11,12 +11,16 @@ export default function RegisterLinks() {
   }
 
   return (
-    <ul style={{ display: 'text' }}>
-      {Object.keys(links).map(key => <li><a href={links[key]}>{labels[key] || key}</a></li>)}
-    </ul>
+    <span>
+      {Object.keys(links).map(key => <span> &nbsp; <a href={links[key]}>{labels[key] || key}</a></span>)}
+    </span>
   )
 }
 
 const labels = {
+  doodle: 'Doodle',
+  hackenin: 'hacken.in',
   meetup: 'Meetup',
+  nerdhub: 'nerdhub',
+  xing: 'Xing',
 }

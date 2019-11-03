@@ -4,7 +4,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#e01f1f`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -26,6 +26,13 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <Link to="/" style={{ color: 'white' }}>Home</Link>
+      <Link to="/about/">Themen</Link>
+      <Link to="/termine/">Termine</Link>
+      <Link to="/lightningtalks/">Mitmachen</Link>
+      <Link to="/sponsoren/">Unterstützen</Link>
+      <Link to="/kontakt/">Kontakt</Link>
+      <Link to="/impressum/">Impressum</Link>
     </div>
   </header>
 )

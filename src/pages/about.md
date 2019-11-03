@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Themen
 ---
 
@@ -19,3 +18,7 @@ Wir laden daher zum interdisziplinären Informationsaustausch zwischen
 allen Entwicklern, unabhängig von irgendwelchen Programmiersprachen ein!
 
 ## Themen Rückblick
+
+import AllTopics from '../components/AllTopics'
+
+<AllTopics />

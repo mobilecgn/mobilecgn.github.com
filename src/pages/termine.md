@@ -18,4 +18,6 @@ TODO
 
 ## Vergangene Termine
 
-TODO
+import PastEvents from '../components/PastEvents'
+
+<PastEvents />

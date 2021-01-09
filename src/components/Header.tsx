@@ -1,6 +1,9 @@
 import { useState } from 'react';
+import { SkipNavLink } from "@reach/skip-nav";
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+
+import "@reach/skip-nav/styles.css";
 
 import Logo from "./Logo";
 
@@ -37,8 +40,6 @@ export default function Header({ mode }: { mode?: 'big' }) {
 
   const router = useRouter()
 
-  // TODO: skip to content
-
   const darkBackground = mode !== 'big';
 
   return (
@@ -47,6 +48,7 @@ export default function Header({ mode }: { mode?: 'big' }) {
       'bg-gradient-to-r from-red to-red-dark' :
       'bg-white'
     }>
+      <SkipNavLink>Zum Inhalt springen</SkipNavLink>
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">

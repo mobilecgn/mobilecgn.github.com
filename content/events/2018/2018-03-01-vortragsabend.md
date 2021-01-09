@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Crossplatform-Entwicklung und Codesharing mit Flutter und C++/Djinni"
-categories: ["frontpage"]
+
 frontpage_line1: "Vortragsabend Codesharing"
 frontpage_line2: "Do., 1. März"
 frontpage_line3: "bei grandcentrix"
@@ -9,117 +9,91 @@ frontpage_line4: "Wir möchten euch gerne zum nächsten Vortragsabend einladen. 
 themen: ["Flutter - A new approach for cross platform development on mobile", "Crossplatform Code sharing mit C++ und Djinni"]
 all_events_title: "Vortragsabend: Fuchsia and Flutter"
 all_events_text: Do. 1. März 2018 bei grandcentrix
-doodle: https://doodle.com/poll/nh9ppveyq9suykxc
-xing: https://www.xing.com/events/-1914949
-meetup: https://www.meetup.com/mobilecgn/events/247842275/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  doodle: https://doodle.com/poll/nh9ppveyq9suykxc
+  xing: https://www.xing.com/events/-1914949
+  meetup: https://www.meetup.com/mobilecgn/events/247842275/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-13">
-	<p>
-		Wir möchten euch gerne zum nächsten Vortragsabend
-		<strong>am Donnerstag, den 1. März ab 18:30 Uhr</strong> in die
-		Räumlichkeiten von <a href="https://www.grandcentrix.net/"><strong>grandcentrix</strong></a> einladen.
-	</p>
-	<p>
-		Mit direkt zwei Vorträgen zum Themenkomplex Crossplatform-Entwickung und Code Sharing
-		wird dies bestimmt ein spannder, informativer und diskussionsfreudiger Abend.
-	</p>
-	<p>
-		Die beiden Android-Entwickler Albrecht Noll &amp; Pascal Welsch über
-		Ihre Erfahrung mit dem von Google initisierte Framework Flutter berichten.
-	</p>
-	<p>
-		Anschließend erläutern Ömer Avci und Ansgar Trimborn die Möglichkeiten
-		von Code Sharing mit C++ und dem von Dropbox initialierten Projekt Djinni.
-	</p>
-	<br/>
+Wir möchten euch gerne zum nächsten Vortragsabend
+**am Donnerstag, den 1. März ab 18:30 Uhr** in die
+Räumlichkeiten von <a href="https://www.grandcentrix.net/">**grandcentrix**</a> einladen.
 
-  <p>
-		<strong>10 years Android - what's next? Fuchsia and Flutter</strong>
-	</p>
-	<p>
-		They will dive into the code and show you directly how effective the development cycle with flutter is.
-	</p>
-	<p>
-		The Android UI evolved a lot in the last decade. With Holo, Android became kind of nice looking and with Material Design, Android became beautiful. What hasn't changed is the UI Framework where layouts are inflated, layouted and measured on the main thread. Decisions made in 2005 which can't be changed now. This makes it harder than it should to run you app constantly on 60fps.
-	</p>
-	<p>
-		Flutter, a mobile app SDK from Google is designed to render your app constantly at 60fps. It already comes with a rich catalog of pixel perfect Material Design which look and feel like widgets from the Android design support library. Flutter apps are written in Dart and cross compile to Android and iOS to native code (not JavaScript!!!). Java glue code is only required when you're talking to system services like GPS or notifications.
-	</p>
-	<p>
-		Flutter could be Googles transition plan for Fuchsia, Googles next operating system for mobile devices. Instead of supporting Android Apps on Fuchsia, apps for Fuchsia can be compiled to iOS and Android apps. Fuchsia supports Dart as first class language and the system UI is written with flutter.
-	</p>
-	<p>
-		It's time to look what's next!
-	</p>
-	<br/>
+Mit direkt zwei Vorträgen zum Themenkomplex Crossplatform-Entwickung und Code Sharing
+wird dies bestimmt ein spannder, informativer und diskussionsfreudiger Abend.
 
-	<p>
-		<strong>Crossplatform Code sharing with C++ and Djinni</strong>
-	</p>
-	<p>
-		The App Store will turn 10 this year and nearly since the introduction of the App Store developers and business owners were looking for solutions to develop one app for multiple platforms. What sounds like a dream solution to save development costs and time brought us projects like PhoneGap, Titanium, React Native and many more.
-	</p>
-	<p>
-		After hard work and a lot of effort we saw that all this solutions didn't hold up to their promises. The UX was poor because we didn't have a native UI and bug fixes took a lot of time to solve and made the code base worse. A single code base meant a lot of if and elses. It didn't work out and didn't save time or costs.
-	</p>
-	<p>
-		But is this the end or could there be a solution to develop features and share them on multiple platforms? Yes, actually there is a great solution. For that purpose Dropbox developed a tool called Djinni which lets you define a API and generated bindings for multiple platforms. The actual API needs to be implemented in C++ and can be used in iOS, Android, Windows, Mac or Linux apps.
-	</p>
-	<p>
-		Using Djinni now in multiple large projects we think we found a great solution for the sharing code between multiple platforms.
-	</p>
-	<br/>
+Die beiden Android-Entwickler Albrecht Noll &amp; Pascal Welsch über
+Ihre Erfahrung mit dem von Google initisierte Framework Flutter berichten.
 
-	<p>
-		<strong>Über grandcentrix</strong>
-	</p>
-	<p>
-		Wir danken <a href="https://grandcentrix.net/"><strong>grandcentrix</strong></a>
-		für seine Gastfreundschaft!
-	</p>
-	<p>
-		grandcentrix ist spezialisiert auf die Ende-zu-Ende Realisierung
-		von Internet of Things, Industrial Internet of Things und Smart Products.
-		Als Full-Stack IoT Solution Provider setzen Sie dabei Internet-of-Things
-		Projekte für alle Plattformen um.
-	</p>
-	<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<a href="https://www.grandcentrix.net/"><img src="/static/images/grandcentrix.png" alt="grandcentrix" width="320" height="96" /></a>
-	</p><br/>
-</div>
-<div class="clearfix"></div>
+Anschließend erläutern Ömer Avci und Ansgar Trimborn die Möglichkeiten
+von Code Sharing mit C++ und dem von Dropbox initialierten Projekt Djinni.
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2"><p>~ 18:30 Uhr</p></div>
-	<div class="span-13 last">
-        <p>
-            <strong>Opening &amp; come together</strong>
-        </p>
-    </div>
-	<div class="span-2"><p>~ 19:00 Uhr</p></div>
-	<div class="span-13 last">
-		<p>
-			<strong>Flutter - A new approach for cross platform development on mobile</strong><br/>
-			Albrecht Noll &amp; Pascal Welsch, grandcentrix
-		</p>
-		<p>
-			<strong>Crossplatform Code sharing with C++ and Djinni</strong><br/>
-			Ömer Avci &amp; Ansgar Trimborn, grandcentrix
-		</p>
-	</div>
-	<div class="span-2">danach</div>
-	<div class="span-13 last">Diskutieren, austauschen, Bier trinken, etc.</div>
-</div>
-<div class="clearfix"></div><br/>
+### 10 years Android - what's next? Fuchsia and Flutter
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p><br/>
+They will dive into the code and show you directly how effective the development cycle with flutter is.
 
-{% include _location_grandcentrix.html %}
+The Android UI evolved a lot in the last decade. With Holo, Android became kind of nice looking and with Material Design, Android became beautiful. What hasn't changed is the UI Framework where layouts are inflated, layouted and measured on the main thread. Decisions made in 2005 which can't be changed now. This makes it harder than it should to run you app constantly on 60fps.
+
+Flutter, a mobile app SDK from Google is designed to render your app constantly at 60fps. It already comes with a rich catalog of pixel perfect Material Design which look and feel like widgets from the Android design support library. Flutter apps are written in Dart and cross compile to Android and iOS to native code (not JavaScript!!!). Java glue code is only required when you're talking to system services like GPS or notifications.
+
+Flutter could be Googles transition plan for Fuchsia, Googles next operating system for mobile devices. Instead of supporting Android Apps on Fuchsia, apps for Fuchsia can be compiled to iOS and Android apps. Fuchsia supports Dart as first class language and the system UI is written with flutter.
+
+It's time to look what's next!
+
+### Crossplatform Code sharing with C++ and Djinni
+
+The App Store will turn 10 this year and nearly since the introduction of the App Store developers and business owners were looking for solutions to develop one app for multiple platforms. What sounds like a dream solution to save development costs and time brought us projects like PhoneGap, Titanium, React Native and many more.
+
+After hard work and a lot of effort we saw that all this solutions didn't hold up to their promises. The UX was poor because we didn't have a native UI and bug fixes took a lot of time to solve and made the code base worse. A single code base meant a lot of if and elses. It didn't work out and didn't save time or costs.
+
+But is this the end or could there be a solution to develop features and share them on multiple platforms? Yes, actually there is a great solution. For that purpose Dropbox developed a tool called Djinni which lets you define a API and generated bindings for multiple platforms. The actual API needs to be implemented in C++ and can be used in iOS, Android, Windows, Mac or Linux apps.
+
+Using Djinni now in multiple large projects we think we found a great solution for the sharing code between multiple platforms.
+
+### Über grandcentrix
+
+Wir danken <a href="https://www.grandcentrix.net/">grandcentrix</a>
+für seine Gastfreundschaft!
+
+grandcentrix ist spezialisiert auf die Ende-zu-Ende Realisierung von Internet of Things, Industrial Internet of Things und Smart Products.
+Als App Agentur setzen Sie dabei Projekte für alle Plattformen um.
+
+<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+  <a href="https://www.grandcentrix.net/"><img src="/static/images/grandcentrix.png" alt="grandcentrix" /></a>
+</p>
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>**Opening &amp; come together**</td>
+  </tr>
+  <tr>
+    <td>~ 19:00 Uhr</td>
+    <td>
+      <p>
+        **Flutter - A new approach for cross platform development on mobile**<br/>
+        Albrecht Noll &amp; Pascal Welsch, grandcentrix
+      </p>
+      <p>
+        **Crossplatform Code sharing with C++ and Djinni**<br/>
+        Ömer Avci &amp; Ansgar Trimborn, grandcentrix
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_grandcentrix/>

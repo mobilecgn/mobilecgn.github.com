@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Flutter vs. React-Native"
-categories: ["frontpage"]
+
 frontpage_line1: "Donnerstag, 22. November"
 frontpage_line2: "Flutter vs."
 frontpage_line3: "React-Native"
@@ -9,88 +9,75 @@ frontpage_line4: "Bei unserem heutigen Themenabend wollen wir uns einmal ansehen
 themen: ["Flutter vs. React-Native"]
 all_events_title: "Vortragsabend: Flutter vs. React-Native"
 all_events_text: Do. 22. November 2018 im AfM
-#doodle: https://doodle.com/poll/abaw92hinuizk46e
-xing: https://www.xing.com/events/-2028339
-meetup: https://www.meetup.com/de-DE/mobilecgn/events/256368630/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  #doodle: https://doodle.com/poll/abaw92hinuizk46e
+  xing: https://www.xing.com/events/-2028339
+  meetup: https://www.meetup.com/de-DE/mobilecgn/events/256368630/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-13">
-	<p>
-		Gerne möchten wir euch
-		<strong>am Donnerstag, den 22. November ab 18:30 Uhr</strong> ins
-		<a href="https://www.afm-koeln.de/"><strong>Atelier für Mediengestaltung</strong></a>
-		in Mülheim zu einem Themenabend zu Flutter und React-Native einladen.
-	</p>
-	<br/>
+Gerne möchten wir euch
+**am Donnerstag, den 22. November ab 18:30 Uhr** ins
+<a href="https://www.afm-koeln.de/">**Atelier für Mediengestaltung**</a>
+in Mülheim zu einem Themenabend zu Flutter und React-Native einladen.
 
-	<p>
-		<strong>Flutter vs. React-Native</strong>
-	</p>
-	<p>
-		Bei unserem heutigen Themenabend wollen wir uns einmal ansehen,
-		wie Anwendungen in den beiden aktuell beliebtesten nativen Cross-Plattform-Lösungen
-		aussehen und zwar im Code.
-		Nach unseren Einführungen in React-Native und Flutter wollen wir diesmal
-		gemeinsam diskutieren, wo Vor- und Nachteile der beiden Plattformen liegen.  
-	</p>
-	<p>
-		Zunächst demonstrieren Christian Stahl und Christoph Jerolimov die Umsetzung
-		ein paar gängiger Aufgaben und vergleichen diese. Im Anschluss möchten wir
-		gerne mit Euch Erfahrungen mit beiden Plattformen austauschen.
-		Daher sind ausdrücklich auch erfahrene Entwickler beider Plattformen willkommen,
-		aber auch Laien, die sich einen Überblick verschaffen möchten.
-	</p>
-	<br/>
+**Flutter vs. React-Native**
 
-	<p>
-		<strong>Atelier für Mediengestaltung</strong>
-	</p>
-	<p>
-		Wir danken der Agentur <a href="https://www.afm-koeln.de/">Atelier für Mediengestaltung</a>
-		für ihre Gastfreundschaft.
-		Das Atelier für Mediengestaltung ist eine Agentur für die Umsetzung von Ausstellungen,
-		Corporate Design sowie Web- und Mobile-Lösungen.
-	</p>
-	<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<a href="https://www.afm-koeln.de/"><img src="/static/images/afm.png" alt="AfM" width="320" height="32"></a>
-	</p><br/>
+Bei unserem heutigen Themenabend wollen wir uns einmal ansehen,
+wie Anwendungen in den beiden aktuell beliebtesten nativen Cross-Plattform-Lösungen
+aussehen und zwar im Code.
+Nach unseren Einführungen in React-Native und Flutter wollen wir diesmal
+gemeinsam diskutieren, wo Vor- und Nachteile der beiden Plattformen liegen.  
 
-</div>
-<div class="clearfix"></div>
+Zunächst demonstrieren Christian Stahl und Christoph Jerolimov die Umsetzung
+ein paar gängiger Aufgaben und vergleichen diese. Im Anschluss möchten wir
+gerne mit Euch Erfahrungen mit beiden Plattformen austauschen.
+Daher sind ausdrücklich auch erfahrene Entwickler beider Plattformen willkommen,
+aber auch Laien, die sich einen Überblick verschaffen möchten.
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2"><p>~ 18:30 Uhr</p></div>
-	<div class="span-13 last">
-        <p>
-            <strong>Opening &amp; come together</strong>
-        </p>
-    </div>
-	<div class="span-2"><p>~ 19:00 Uhr</p></div>
-	<div class="span-13 last">
-		<p>
-			<strong>[Talk] Flutter vs. React-Native</strong><br/>
-			Christian Stahl und Christoph Jerolimov
-		</p>
-		<p>
-			<strong>Diskussion über die Vor- und Nachteile von Flutter und React-Native</strong><br/>
-		</p>
-	</div>
-	<div class="span-2"><p>danach</p></div>
-	<div class="span-13 last">
-		<p>
-			Entspannter Ausklang und der Möglichkeit sich bei einem Bier kennenzulernen.
-		</p>
-	</div>
-</div>
-<div class="clearfix"></div><br/>
+### Atelier für Mediengestaltung
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p><br/>
+Wir danken der Agentur <a href="https://www.afm-koeln.de/">Atelier für Mediengestaltung</a>
+für ihre Gastfreundschaft.
+Das Atelier für Mediengestaltung ist eine Agentur für die Umsetzung von Ausstellungen,
+Corporate Design sowie Web- und Mobile-Lösungen.
 
-{% include _location_afm.html %}
+<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://www.afm-koeln.de/"><img src="/static/images/afm.png" alt="AfM" width="320" height="32" /></a>
+</p>
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>**Opening &amp; come together**</td>
+  </tr>
+  <tr>
+    <td>~ 19:00 Uhr</td>
+    <td>
+    <p>
+      **[Talk] Flutter vs. React-Native**<br/>
+      Christian Stahl und Christoph Jerolimov
+    </p>
+    <p>
+      **Diskussion über die Vor- und Nachteile von Flutter und React-Native**<br/>
+    </p>
+  </td>
+  </tr>
+  <td>danach</td>
+  <td>
+    <p>
+      Entspannter Ausklang und der Möglichkeit sich bei einem Bier kennenzulernen.
+    </p>
+  </td>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_afm/>

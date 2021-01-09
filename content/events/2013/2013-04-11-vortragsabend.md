@@ -1,73 +1,72 @@
 ---
-layout: post
+type: event
 title: Mobile Game Development
 themen: ["Mobile Game Development"]
 all_events_title: Mobile Game Development
 all_events_text: Do. 11. April 2013 in der bottfabrik
-doodle: https://www.doodle.com/hids89fhfyep79vg
-xing: https://www.xing.com/events/-1217506
-nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/1138
+
+rvspLinks:
+  doodle: https://www.doodle.com/hids89fhfyep79vg
+  xing: https://www.xing.com/events/-1217506
+  nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/1138
 ---
 
-<p>
-	<img src="/static/images/events/mobile-cologne-2013-04.jpg" width="240" height="180" alt="Teaser: Game Development" />
-</p>
-<p>
-	Spieleentwicklung ist ein vielversprechendes Feld der mobilen Entwicklung.
-	In diesem Talk möchte <a href="https://twitter.com/iceX33" target="_blank">Maxim Zaks</a> auf Konzepte und
-	das Einmaleins der Spieleentwicklung eingehen.
-	Maxim wird dabei von seinen früheren Erfahrungen als “Indie-Spielentwickler”
-	und Entwickler in einen grösseren Game Studio team berichten.
-</p>
-<p>
-	Maxim Zaks ist ein “Freelancer”, der sich in verschiedenen Bereichen
-	der Softwareentwicklung probiert hat.
-	Zur Zeit arbeitet er als Spieleentwickler bei <a href="https://www.wooga.com/" target="_blank">Wooga</a> in Berlin.
-</p>
-<p>
-	Gamification ist in aller Munde und ein perfektes Tool für Marketing
-	und kann verwendet werden um Communities zu erzeugen oder Inhalte zu transportieren.
-	Der erste Talk des Abends soll einen Überblick über Gamification, die Konzepte, die Geschichte
-	sowie die Zukunft bieten.
-</p>
-<p>
-	Michael Kleinhenz ist Mitgründer der <a href="https://www.goquestor.com/" target="_blank">Questor GmbH</a>,
-	einem Unternehmen das sich auf Gamification spezialisiert hat.
-	Er ist verantwortlich für das Produktdesign und die Entwicklung von
-	mobilen Entertainment-Applikationen.
-	Vor Questor war er bei der tarent AG als leitender Architekt tätig und
-	gründete den LinuxTag, Europas größte Open Source Konferenz.
-</p>
+<img src="/static/images/events/mobile-cologne-2013-04.jpg" width="240" height="180" alt="Teaser: Game Development" />
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2">18:30 Uhr</div>
-	<div class="span-13 last">Opening</div>
-	<div class="span-2">18:40 Uhr</div>
-	<div class="span-13 last">Kleine Verlosung</div>
-	<div class="span-2">18:45 Uhr</div>
-	<div class="span-13 last">
-		[Talk] How Gamification changes the World, Michael Kleinhenz, <a href="https://www.goquestor.com/" target="_blank">Questor</a><br/>
-		[Talk] Mobile Game Development, <a href="https://twitter.com/iceX33" target="_blank">Maxim Zaks</a>, <a href="https://www.wooga.com/" target="_blank">Wooga</a><br/>
-	</div>
-	<div class="span-2">danach</div>
-	<div class="span-13 last">Diskutieren, austauschen, Bier trinken, etc.</div>
-</div>
-<div class="clearfix"></div><br/>
+Spieleentwicklung ist ein vielversprechendes Feld der mobilen Entwicklung.
+In diesem Talk möchte <a href="https://twitter.com/iceX33" target="_blank">Maxim Zaks</a> auf Konzepte und
+das Einmaleins der Spieleentwicklung eingehen.
+Maxim wird dabei von seinen früheren Erfahrungen als “Indie-Spielentwickler”
+und Entwickler in einen grösseren Game Studio team berichten.
 
-<h3>Anmeldung</h3>
-<p>
-	Wenn ihr mögt meldet euch an damit wir grob planen können: &nbsp;
-	{% include _content_register.html %}
-</p>
+Maxim Zaks ist ein “Freelancer”, der sich in verschiedenen Bereichen
+der Softwareentwicklung probiert hat.
+Zur Zeit arbeitet er als Spieleentwickler bei <a href="https://www.wooga.com/" target="_blank">Wooga</a> in Berlin.
 
-{% include _location_bottfabrik.html %}
+Gamification ist in aller Munde und ein perfektes Tool für Marketing
+und kann verwendet werden um Communities zu erzeugen oder Inhalte zu transportieren.
+Der erste Talk des Abends soll einen Überblick über Gamification, die Konzepte, die Geschichte
+sowie die Zukunft bieten.
 
-<div class="container span-20 last clear">
-	<div class="span-10">
-		<h3>Sponsored <span class="loud">by</span></h3>
-		<a href="https://www.oreilly.de/" target="_blank">
-			<img src="/static/images/oreilly.png" style="width: 150px; padding: 20px;" />
-		</a>
-	</div>
-</div>
+Michael Kleinhenz ist Mitgründer der <a href="https://www.goquestor.com/" target="_blank">Questor GmbH</a>,
+einem Unternehmen das sich auf Gamification spezialisiert hat.
+Er ist verantwortlich für das Produktdesign und die Entwicklung von
+mobilen Entertainment-Applikationen.
+Vor Questor war er bei der tarent AG als leitender Architekt tätig und
+gründete den LinuxTag, Europas größte Open Source Konferenz.
+
+### Agenda
+
+<table>
+  <tr>
+    <td>18:30 Uhr</td>
+    <td>Opening</td>
+  </tr>
+  <tr>
+    <td>18:40 Uhr</td>
+    <td>Kleine Verlosung</td>
+  </tr>
+  <tr>
+    <td>18:45 Uhr</td>
+    <td>
+      [Talk] How Gamification changes the World, Michael Kleinhenz, <a href="https://www.goquestor.com/" target="_blank">Questor</a><br/>
+      [Talk] Mobile Game Development, <a href="https://twitter.com/iceX33" target="_blank">Maxim Zaks</a>, <a href="https://www.wooga.com/" target="_blank">Wooga</a><br/>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Wenn ihr mögt meldet euch an damit wir grob planen können: <RegisterLinks />
+
+<Location_bottfabrik/>
+
+### Sponsored by
+
+<a href="https://www.oreilly.de/" target="_blank">
+  <img src="/static/images/oreilly.png" style="width: 150px; padding: 20px;" />
+</a>

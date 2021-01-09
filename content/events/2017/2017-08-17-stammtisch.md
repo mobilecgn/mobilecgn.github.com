@@ -1,41 +1,34 @@
 ---
-layout: post
+type: event
 title: "Mobile Stammtisch Köln"
-categories: ["frontpage"]
+
 frontpage_line1: "Donnerstag, 17. August"
 frontpage_line2: "Mobile Stammtisch"
 frontpage_line3: "im Päffgen"
 frontpage_line4: "Wir möchten euch herzlich zu unserem nächsten Stammtisch einladen. In geselliger Runde, bei einem gekühlten Kölsch und etwas zu Essen, mit gleichgesinnten angeregt diskutieren oder einfach ganz entspannt ein wenig Small-Talk halten."
 all_events_title: "Mobile Stammtisch Köln"
 all_events_text: Do. 17. August 2017 im Päffgen
-doodle: https://doodle.com/poll/v9xs8pbdt7i4vbe3
-xing: https://www.xing.com/events/-1842653
-meetup: https://www.meetup.com/mobilecgn/events/242190136/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/3173
+
+rvspLinks:
+  doodle: https://doodle.com/poll/v9xs8pbdt7i4vbe3
+  xing: https://www.xing.com/events/-1842653
+  meetup: https://www.meetup.com/mobilecgn/events/242190136/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/3173
 ---
 
-<p>
-	Wir möchten euch zu unserem nächsten Stammtisch einladen:
-</p>
-<p>
-	Am Donnerstag, den 17. August findet ihr uns <strong>ab 19 Uhr im Biergarten
-	<span style="color: #E01F1F; text-decoration:line-through;"><span style="color: black;">am Aachener Weiher</span></span>
-	im Päffgen</strong>.
-</p>
-<p>
-	In geselliger Runde, bei einem gekühlten Kölsch und etwas zu Essen,
-	mit gleichgesinnten angeregt diskutieren oder einfach ganz entspannt
-	ein wenig Small-Talk halten.
-</p>
-<p>
-	Wir freuen uns auf euch.
-</p>
+Wir möchten euch zu unserem nächsten Stammtisch einladen:
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung (Reservierung) an: &nbsp;
-	{% include _content_register.html %}
-</p>
+Am Donnerstag, den 17. August findet ihr uns **ab 19 Uhr im Biergarten <span style="color: #E01F1F; text-decoration:line-through;"><span style="color: black;">am Aachener Weiher</span></span> im Päffgen**.
 
-{% include _location_paeffgen.html %}
+In geselliger Runde, bei einem gekühlten Kölsch und etwas zu Essen,
+mit gleichgesinnten angeregt diskutieren oder einfach ganz entspannt
+ein wenig Small-Talk halten.
+
+Wir freuen uns auf euch.
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung (Reservierung) an: <RegisterLinks />
+
+<Location_paeffgen/>

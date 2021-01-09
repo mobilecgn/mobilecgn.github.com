@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Generic Networking sowie Indoor-Ortung mit iBeacons"
-categories: ["frontpage"]
+
 frontpage_line1: "Vortragsabend:"
 frontpage_line2: "Do, 8. Oktoboer"
 frontpage_line3: "bei grandcentrix"
@@ -9,45 +9,46 @@ frontpage_line4: "Karsten stellt die Möglichkeiten für <strong>Generic Network
 themen: ["Generic Network Requests with Swift 2.0", "Indoor-Ortung mit iBeacons"]
 all_events_title: "Vortragsabend: Generic Networking sowie Indoor-Ortung mit iBeacons"
 all_events_text: Do. 8. Oktoboer 2015 bei Grandcentrix
-doodle: https://doodle.com/poll/ht3yfdkqz4dpkduc
-xing: https://www.xing.com/events/-1604569
-meetup: https://www.meetup.com/de/mobilecgn/events/225668295/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  doodle: https://doodle.com/poll/ht3yfdkqz4dpkduc
+  xing: https://www.xing.com/events/-1604569
+  meetup: https://www.meetup.com/de/mobilecgn/events/225668295/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-14">
-	<p>
-		Gerne laden wir euch zum nächsten Vortragsabend am Donnerstag,
-		den 8.10., zu <a href="https://www.grandcentrix.net/">grandcentrix</a> nach Köln-Mülheim ein.
-		Wir freuen uns auf einen Abend mit zwei spannenden Vorträgen:
-	</p>
-	<p>
-		Karsten Bruns stellt die Möglichkeiten für Generic Networking mit Swift 2 vor.
-	</p>
-	<p>
-		Anschließend berichtet Raphael über seine Praxiserfahrungen mit iBeacons zur Indoor-Ortung.
-	</p>
-<div class="clearfix"></div>
+Gerne laden wir euch zum nächsten Vortragsabend am Donnerstag,
+den 8.10., zu <a href="https://www.grandcentrix.net/">grandcentrix</a> nach Köln-Mülheim ein.
+Wir freuen uns auf einen Abend mit zwei spannenden Vorträgen:
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2">19:00 Uhr</div>
-	<div class="span-13 last">Opening &amp; come together</div>
-	<div class="span-2">19:30 Uhr</div>
-	<div class="span-13 last">
-		<strong>Generic Network Requests with Swift 2.0 von Karsten Bruns, grandcentrix</strong><br/>
-		<strong>Innenraumortung mit iBeacons von Raphael Köhler, grandcentrix</strong>
-	</div>
-	<div class="span-2">danach</div>
-	<div class="span-13 last">Diskutieren, austauschen, Bier trinken, etc.</div>
-</div>
-<div class="clearfix"></div><br/>
+Karsten Bruns stellt die Möglichkeiten für Generic Networking mit Swift 2 vor.
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p>
+Anschließend berichtet Raphael über seine Praxiserfahrungen mit iBeacons zur Indoor-Ortung.
 
-{% include _location_grandcentrix_carlswerk.html %}
+### Agenda
+
+<table>
+  <tr>
+    <td>19:00 Uhr</td>
+    <td>Opening &amp; come together</td>
+  </tr>
+  <tr>
+    <td>19:30 Uhr</td>
+    <td>
+      **Generic Network Requests with Swift 2.0 von Karsten Bruns, grandcentrix**<br/>
+      **Innenraumortung mit iBeacons von Raphael Köhler, grandcentrix**
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_grandcentrix_carlswerk/>

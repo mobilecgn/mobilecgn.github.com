@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Continuous Integration bei inovex"
-categories: ["frontpage"]
+
 frontpage_line1: "Di. 12. Februar"
 frontpage_line2: "Continuous Integration"
 frontpage_line3: "und Testing"
@@ -9,118 +9,101 @@ frontpage_line4: "Bei unserem Themenabend widmen wir uns dem Thema <strong>Conti
 themen: ["iOS CI/CD Pipeline", "Continuous Integration für Flutter Apps"]
 all_events_title: "Vortragsabend: Continuous Integration"
 all_events_text: Di. 12. Feburar 2019 bei inovex
-#doodle: https://doodle.com/poll/abaw92hinuizk46e
-#xing: https://www.xing.com/events/-2028339
-meetup: https://www.meetup.com/de-DE/mobilecgn/events/258526751/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  #doodle: https://doodle.com/poll/abaw92hinuizk46e
+  #xing: https://www.xing.com/events/-2028339
+  meetup: https://www.meetup.com/de-DE/mobilecgn/events/258526751/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-13">
-	<p>
-		Gerne möchten wir euch
-		<strong>am Dienstag, den 12. Februar ab 18:30 Uhr</strong> zu
-		<a href="https://www.inovex.de/"><strong>inovex</strong></a>
-		nach Mülheim zu unserem Themenabend zu Continuous Integration einladen.
-	</p>
-	<p>
-		"Release early, release often" ist der Wunsch in der Softwareentwicklung
-		und automatisierte Checks (Linting) und Tests sind der Schlüssel dafür.
-	</p>
-	<p>
-		Unsere Speaker Sebastian Meßingfeld und Pascal Welsch erklären welche Möglichkeiten es gibt vollautomatisiert die Qualität von nativen iOS Apps bzw. Flutter Apps (für Android und iOS) sicherzustellen.
-	</p>
-	<br/>
+Gerne möchten wir euch
+**am Dienstag, den 12. Februar ab 18:30 Uhr** zu
+<a href="https://www.inovex.de/">**inovex**</a>
+nach Mülheim zu unserem Themenabend zu Continuous Integration einladen.
 
-	<p>
-		<strong>iOS CI/CD Pipeline</strong>
-	</p>
-	<p>		
-		Sebastian (<a href="https://twitter.com/_messeb">@_messeb</a>)
-		zeigt wie eine automatisierte CI/CD Pipeline für ein natives
-		iOS Projekt aussehen kann.
-		Dazu gibt er einen Einblick wie man einen oder mehrere iOS/macOS
-		Buildserver automatisiert mit Ansible provisionieren kann.
-		Er stellt vor wie ein iOS Projekt aufgebaut sein kann,
-		das selbst direkt alle nötigen Abhängigkeiten,
-		sowie Zertifikate &amp; Provisioning Profiles, mitbringt und
-		zeigt wie man mit SwiftLint, CodeCov und Danger die
-		Qualitätsicherung während der Entwicklung unterstützen kann.
-	</p>
-	<br/>
+"Release early, release often" ist der Wunsch in der Softwareentwicklung
+und automatisierte Checks (Linting) und Tests sind der Schlüssel dafür.
 
-	<p>
-		<strong>Continuous Integration with Flutter</strong>
-	</p>
-	<p>
-		Pascal (<a href="https://twitter.com/passsy">@passsy</a>)
-		stellt für Flutter die essentiellen Teile einer
-		Continuous Integration Pipeline für Flutter Apps vor.
-		Dabei beleuchtet er unter anderem die Themen Linting,
-		Testing, Code Coverage und Publishing der App.
-	</p>
-	<br/>
+Unsere Speaker Sebastian Meßingfeld und Pascal Welsch erklären welche Möglichkeiten es gibt vollautomatisiert die Qualität von nativen iOS Apps bzw. Flutter Apps (für Android und iOS) sicherzustellen.
 
-	<p>
-		<strong>Über inovex</strong>
-	</p>
-	<p>
-		Wir danken <a href="https://www.inovex.de/">inovex</a> für Ihre Gastfreundschaft.
-		inovex ist ein IT-Projekthaus und unterstützt Unternehmen bei der
-		Digitalisierung ihres Kerngeschäfts und bei der Realisierung von
-		neuen Wertschöpfungsmodellen unter anderen in den Bereichen
-		Web und Mobile Development, Business Intelligence und Big Data
-		und hat neben Köln Geschäftsstellen Karlsruhe, Stuttgart, Pforzheim, München und Hamburg.
-	</p>
-	<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<a href="https://www.inovex.de/"><img src="/static/images/inovex.svg" alt="inovex" width="130" height="90"></a>
-	</p>
-	<br/>
+**iOS CI/CD Pipeline**
 
-</div>
-<div class="clearfix"></div>
+Sebastian (<a href="https://twitter.com/_messeb">@_messeb</a>)
+zeigt wie eine automatisierte CI/CD Pipeline für ein natives
+iOS Projekt aussehen kann.
+Dazu gibt er einen Einblick wie man einen oder mehrere iOS/macOS
+Buildserver automatisiert mit Ansible provisionieren kann.
+Er stellt vor wie ein iOS Projekt aufgebaut sein kann,
+das selbst direkt alle nötigen Abhängigkeiten,
+sowie Zertifikate &amp; Provisioning Profiles, mitbringt und
+zeigt wie man mit SwiftLint, CodeCov und Danger die
+Qualitätsicherung während der Entwicklung unterstützen kann.
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-3"><p>~ 18:30 Uhr</p></div>
-	<div class="span-11 last">
-        <p>
-            <strong>Opening &amp; come together 👋</strong>
-        </p>
-    </div>
-	<div class="span-3"><p>~ 19:00 Uhr</p></div>
-	<div class="span-11 last">
-		<p>
-			<strong>[Talk] iOS CI/CD Pipeline + Q&A</strong><br/>
-			Sebastian Meßingfeld
-		</p>
-    </div>
-	<div class="span-3"><p>~ 20:00 Uhr</p></div>
-	<div class="span-11 last">
-		<p>
-			<strong>[Break] Pizza 🍕 sponsored by inovex 🙌</strong>
-		</p>
-    </div>
-	<div class="span-3"><p>~ 20:30 Uhr</p></div>
-	<div class="span-11 last">
-		<p>
-			<strong>[Talk] Continuous Integration with Flutter + Q&A</strong><br/>
-			Pascal Welsch
-		</p>
-    </div>
-	<div class="span-3"><p>danach</p></div>
-	<div class="span-11 last">
-		<p>
-			Gerne weiter Diskutieren, austauschen und noch ein Bier 🍻 trinken.
-		</p>
-	</div>
-</div>
-<div class="clearfix"></div><br/>
+**Continuous Integration with Flutter**
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p><br/>
+Pascal (<a href="https://twitter.com/passsy">@passsy</a>)
+stellt für Flutter die essentiellen Teile einer
+Continuous Integration Pipeline für Flutter Apps vor.
+Dabei beleuchtet er unter anderem die Themen Linting,
+Testing, Code Coverage und Publishing der App.
 
-{% include _location_inovex.html %}
+## Über inovex
+
+Wir danken <a href="https://www.inovex.de/">inovex</a> für Ihre Gastfreundschaft.
+inovex ist ein IT-Projekthaus und unterstützt Unternehmen bei der
+Digitalisierung ihres Kerngeschäfts und bei der Realisierung von
+neuen Wertschöpfungsmodellen unter anderen in den Bereichen
+Web und Mobile Development, Business Intelligence und Big Data
+und hat neben Köln Geschäftsstellen Karlsruhe, Stuttgart, Pforzheim, München und Hamburg.
+
+<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://www.inovex.de/"><img src="/static/images/inovex.svg" alt="inovex" width="130" height="90" /></a>
+</p>
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>**Opening &amp; come together 👋**</td>
+  </tr>
+  <tr>
+    <td>~ 19:00 Uhr</td>
+    <td>
+      <p>
+        **[Talk] iOS CI/CD Pipeline + Q&A**<br/>
+        Sebastian Meßingfeld
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>~ 20:00 Uhr</td>
+    <td>
+      <p>
+        **[Break] Pizza 🍕 sponsored by inovex 🙌**
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>~ 20:30 Uhr</td>
+    <td>
+      <p>
+        **[Talk] Continuous Integration with Flutter + Q&A**<br/>
+        Pascal Welsch
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Gerne weiter Diskutieren, austauschen und noch ein Bier 🍻 trinken.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_inovex/>

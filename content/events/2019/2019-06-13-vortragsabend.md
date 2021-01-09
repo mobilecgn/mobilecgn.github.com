@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: App Architecture"
-categories: ["frontpage"]
+
 frontpage_line1: "Donnerstag, 13. Juni"
 frontpage_line2: "App Architecture"
 frontpage_line3: "bei HRS"
@@ -9,111 +9,96 @@ frontpage_line4: "An diesem Themenabend sprechen unsere beiden Speaker Joanna Be
 themen: ["Fighting Risk With Architecture", "A Lean Architecture Case Study"]
 all_events_title: "Vortragsabend: App Architecture"
 all_events_text: Do. 13. Juni 2019 bei HRS
-#doodle: https://doodle.com/poll/abaw92hinuizk46e
-xing: https://www.xing.com/events/-2110252
-meetup: https://www.meetup.com/de-DE/mobilecgn/events/262029958/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  #doodle: https://doodle.com/poll/abaw92hinuizk46e
+  xing: https://www.xing.com/events/-2110252
+  meetup: https://www.meetup.com/de-DE/mobilecgn/events/262029958/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-13">
-	<p>
-		This time both talks will be in English. More infos below.
-	</p>
-	<br/>
 
-	<p>
-		Gerne möchten wir euch
-		<strong>am Donnerstag, den 13. Juni ab 18:30 Uhr</strong> zu
-		<a href="https://corporate.hrs.com/de"><strong>HRS</strong></a>
-		direkt am Hauptbahnhof / Breslauer Platz einladen.
-	</p>
-	<p>
-		An diesem Themenabend sprechen unsere beiden Speaker
-		Joanna Bednarz und Benjamin Durth über das Thema
-		<strong>Software Architektur in der App Entwicklung</strong>.
-		Im ersten Vortrag geht es um <strong>Risiko-Minimierung</strong>
-		und im zweiten um <strong>Lean Architecture</strong> und wie
-		HRS in Agilen Teams mit den hohen Erwartungen an
-		<strong>Stabilität und Qualität</strong> damit umgeht.
-	</p>
-	<br/>
+This time both talks will be in English. More infos below.
 
-	<p>
-		We are happy to invite you to our meetup
-		<strong>on Thursday, June 13th, at 18:30.</strong>
-		This this time we are at the offices of
-		<a href="https://corporate.hrs.com/de"><strong>HRS</strong></a>
-		near Cologne main station / Breslauer Platz.
-	</p>
-	<p>
-		On this evening we have talks by
-		Joanna Bednarz and Benjamin Durth in English about the Topic
-		<strong>Software Architecture for mobile apps</strong>.
-		The first talk will focus on the topic <strong>Risk minimization</strong>
-		and the second talk is about <strong>Lean Architecture</strong> and how
-		HRS handles the requirements of <strong>stability and quality</strong>
-		in their agile development process.
-	</p>
-	<br/>
-	
-	<p>
-		<strong>Über HRS</strong>
-	</p>
-	<p>
-		Wir danken <a href="https://corporate.hrs.com/de"><strong>HRS</strong></a> für Ihre Gastfreundschaft.
-		Die <strong>HRS Group</strong> ist ein weltweit tätiges eCommerce Unternehmen.
-		Im globalen Geschäftsreisemarkt zählt HRS zu den marktführenden Anbietern,
-		in Europa gehört HRS zu den Top 3 Hotelportalen.
-		Das Unternehmen vereinfacht als Outsourcing-Provider
-		für Konzerne die Prozesse rund um den Hotelaufenthalt und
-		bietet Reiseverantwortlichen und
-		den Reisenden selbst zukunftsweisende Lösungen.
-		Neben dem Hauptsitz in Köln hat HRS weltweit über 35 Niederlassungen.
-	</p>
-	<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<a href="https://corporate.hrs.com/de"><img src="/static/images/hrs.png" alt="HRS" width="320" height="40"></a>
-	</p>
-	<br/>
+Gerne möchten wir euch
+**am Donnerstag, den 13. Juni ab 18:30 Uhr** zu
+**<a href="https://corporate.hrs.com/de">HRS</a>**
+direkt am Hauptbahnhof / Breslauer Platz einladen.
 
-</div>
-<div class="clearfix"></div>
+An diesem Themenabend sprechen unsere beiden Speaker
+Joanna Bednarz und Benjamin Durth über das Thema
+**Software Architektur in der App Entwicklung**.
+Im ersten Vortrag geht es um **Risiko-Minimierung**
+und im zweiten um **Lean Architecture** und wie
+HRS in Agilen Teams mit den hohen Erwartungen an
+**Stabilität und Qualität** damit umgeht.
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-3"><p>~ 18:30 Uhr</p></div>
-	<div class="span-11 last">
-        <p>
-            <strong>Einlass und kennenlernen 👋</strong>
-        </p>
-    </div>
-	<div class="span-3"><p>~ 19:00 Uhr</p></div>
-	<div class="span-11 last">
-		<p>
-			<strong>Welcome + HRS Intro</strong>
-		</p>
-		<p>
-			<strong>[Talk] Fighting Risk With Architecture</strong><br/>
-			Joanna Bednarz
-		</p>
-		<p>
-			<strong>[Talk] A Lean Architecture Case Study</strong><br/>
-			Benjamin Durth
-		</p>
-    </div>
-	<div class="span-3"><p>danach</p></div>
-	<div class="span-11 last">
-		<p>
-			Diskutieren, austauschen, netzwerken / kennenlernen... 🍻
-		</p>
-	</div>
-</div>
-<div class="clearfix"></div><br/>
+---
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p><br/>
+We are happy to invite you to our meetup
+**on Thursday, June 13th, at 18:30.**
+This this time we are at the offices of
+**<a href="https://corporate.hrs.com/de">HRS</a>**
+near Cologne main station / Breslauer Platz.
 
-{% include _location_hrs.html %}
+On this evening we have talks by
+Joanna Bednarz and Benjamin Durth in English about the Topic
+**Software Architecture for mobile apps**.
+The first talk will focus on the topic **Risk minimization**
+and the second talk is about **Lean Architecture** and how
+HRS handles the requirements of **stability and quality**
+in their agile development process.
+  
+### Über HRS
+
+Wir danken <a href="https://corporate.hrs.com/de">**HRS**</a> für Ihre Gastfreundschaft.
+Die **HRS Group** ist ein weltweit tätiges eCommerce Unternehmen.
+Im globalen Geschäftsreisemarkt zählt HRS zu den marktführenden Anbietern,
+in Europa gehört HRS zu den Top 3 Hotelportalen.
+Das Unternehmen vereinfacht als Outsourcing-Provider
+für Konzerne die Prozesse rund um den Hotelaufenthalt und
+bietet Reiseverantwortlichen und
+den Reisenden selbst zukunftsweisende Lösungen.
+Neben dem Hauptsitz in Köln hat HRS weltweit über 35 Niederlassungen.
+
+<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://corporate.hrs.com/de"><img src="/static/images/hrs.png" alt="HRS" width="320" height="40" /></a>
+</p>
+
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>**Einlass und kennenlernen 👋**</td>
+  </tr>
+  <tr>
+    <td>~ 19:00 Uhr</td>
+    <td>
+    <p>
+      **Welcome + HRS Intro**
+    </p>
+    <p>
+      **[Talk] Fighting Risk With Architecture**<br/>
+      Joanna Bednarz
+    </p>
+    <p>
+      **[Talk] A Lean Architecture Case Study**<br/>
+      Benjamin Durth
+    </p>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, netzwerken / kennenlernen... 🍻</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_hrs/>

@@ -1,38 +1,31 @@
 ---
-layout: post
+type: event
 title: Mobile Stammtisch
-categories: ["frontpage"]
+
 frontpage_headline: "Am 10. Oktober ab 18:30 Uhr<br/>In entspannter Runde gleichgesinnte kennenlernen, diskutieren oder auch nur Small-Talk halten."
 frontpage_headline_date: Letzter
 frontpage_headline_location: Mobile&nbsp;Stammtisch
 frontpage_headline_image: /static/images/events/mobile-cologne-2013-05.png
 all_events_title: Mobile Stammtisch
 all_events_text: Do. 10. Oktober 2013 im Stadtgarten
-doodle: https://www.doodle.com/qt8tcbbup486fu85
-#xing: https://www.xing.com/events/-1238228
-nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/14681
-hackenin: https://hacken.in/events/105-mobile-cologne/dates/2179
+
+rvspLinks:
+  doodle: https://www.doodle.com/qt8tcbbup486fu85
+  #xing: https://www.xing.com/events/-1238228
+  nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/14681
+  hackenin: https://hacken.in/events/105-mobile-cologne/dates/2179
 ---
 
-<p>
-	<img src="/static/images/events/mobile-cologne-2013-05.png" width="240" height="180" alt="Teaser: Mobile Stammtisch" />
-</p>
-<div class="span-16 clear">
-<p>
-	Wir möchten euch zum Stammtisch in das Restaurant am Stadtgarten einladen. Los geht es um 18:30 Uhr.
-</p>
-<p>
-	In entspannter Runde gleichgesinnte kennenlernen, diskutieren oder auch nur Small-Talk halten.
-	Neben den ein oder anderen Bier werden wir auch noch die Speisekarte
-	genauer in Augenschein nehmen.
-</p>
-</div>
-<div class="clearfix"></div>
+<img src="/static/images/events/mobile-cologne-2013-05.png" width="240" height="180" alt="Teaser: Mobile Stammtisch" />
 
-<h3>Anmeldung</h3>
-<p>
-	Wenn ihr mögt meldet euch an damit wir grob planen können: &nbsp;
-	{% include _content_register.html %}
-</p>
+Wir möchten euch zum Stammtisch in das Restaurant am Stadtgarten einladen. Los geht es um 18:30 Uhr.
 
-{% include _location_stadtgarten.html %}
+In entspannter Runde gleichgesinnte kennenlernen, diskutieren oder auch nur Small-Talk halten.
+Neben den ein oder anderen Bier werden wir auch noch die Speisekarte
+genauer in Augenschein nehmen.
+
+### Anmeldung
+
+Wenn ihr mögt meldet euch an damit wir grob planen können: <RegisterLinks />
+
+<Location_stadtgarten/>

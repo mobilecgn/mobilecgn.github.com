@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Apps with Xamarin &amp; Consuming RESTful APIs with Swagger"
-categories: ["frontpage"]
+
 frontpage_line1: "Donnerstag, 12. April"
 frontpage_line2: "Apps with Xamarin &amp;"
 frontpage_line3: "Consuming RESTful APIs with Swagger"
@@ -9,96 +9,78 @@ frontpage_line4: "Wir möchten euch gerne zum nächsten Vortragsabend in die Rä
 themen: ["Apps with Xamarin", "Consuming RESTful APIs with Swagger"]
 all_events_title: "Vortragsabend: Xamarin &amp; Swagger"
 all_events_text: Do. 12. April 2018 beim hack.institute
-doodle: https://doodle.com/poll/2whidxdgvptmnzmu
-xing: https://www.xing.com/events/-1933418
-meetup: https://www.meetup.com/de-DE/mobilecgn/events/249381391/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+
+rvspLinks:
+  doodle: https://doodle.com/poll/2whidxdgvptmnzmu
+  xing: https://www.xing.com/events/-1933418
+  meetup: https://www.meetup.com/de-DE/mobilecgn/events/249381391/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
 ---
 
-<div class="container span-13">
-	<p>
-		Wir möchten euch gerne zum nächsten Vortragsabend
-		<strong>am Donnerstag, den 12. April ab 18:30 Uhr</strong> in die
-		Räumlichkeiten von <a href="https://hack.institute/"><strong>hack.institute / Headquarter[s] Downtown</strong></a> einladen.
-	</p>
-	<p>
-		Mit zwei spannenden Vorträgen zu den Themen <strong>Xamarin</strong> und <strong>RESTful APIs with Swagger</strong>
-		wird dies bestimmt ein spannder, informativer und diskussionsfreudiger Abend.
-	</p>
-	<p>
-		Sylwester Wieczorkowski arbeiten als Lead Developer bei <a href="https://leaware.com/en"><strong>Leaware</strong></a>.
-	</p>
-	<br/>
+Wir möchten euch gerne zum nächsten Vortragsabend
+**am Donnerstag, den 12. April ab 18:30 Uhr** in die
+Räumlichkeiten von <a href="https://hack.institute/">**hack.institute / Headquarter[s] Downtown**</a> einladen.
 
-  <p>
-		<strong>App-Development with Xamarin</strong>
-	</p>
-	<p>
-		The first talk will give you an <strong>introduction into Xamarin</strong> and the pros and cons of it, and why Leaware develops all their apps with it.
-	</p>
-	<p>
-		The talk will also compare the different front technolgies Xamarin.Forms vs Xamarin Native vs MvvmCross, and how to choose the right approach for each project.
-	</p>
-	<p>
-		What are the challenges in long-term development of apps for different platforms, with the context of a <strong>Shared codebase, User Experience</strong> and Maintenance/documentation.
-	</p>
-	<br/>
+Mit zwei spannenden Vorträgen zu den Themen **Xamarin** und **RESTful APIs with Swagger**
+wird dies bestimmt ein spannder, informativer und diskussionsfreudiger Abend.
 
-	<p>
-		<strong>Consuming RESTful APIs with Swagger</strong>
-	</p>
-	<p>
-		The most apps today are based on massiv API usage. The second talk will give an introduction into Swagger
-		and how to keep your mobile data access layer up-to-date in no time.
-	</p>
-	<p>
-		It shows also how to speed up integration of mobile app with the backend?
-	</p>
-	<br/>
+Sylwester Wieczorkowski arbeiten als Lead Developer bei <a href="https://leaware.com/en">**Leaware**</a>.
 
-	<p>
-		<strong>Über Leaware</strong>
-	</p>
-	<p>
-		Thanks to <a href="https://leaware.com/en">Leaware</a> for supporting us and both
-		talks of this evening.
-		Leaware is a international (Poland, Germany and USA) app agency.
-	</p>
-	<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<a href="https://leaware.com/en"><img src="/static/images/leaware.svg" alt="Leaware" width="294" height="50"></a>
-	</p><br/>
-</div>
-<div class="clearfix"></div>
+### App-Development with Xamarin
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2"><p>~ 18:30 Uhr</p></div>
-	<div class="span-13 last">
-        <p>
-            <strong>Opening &amp; come together</strong>
-        </p>
-    </div>
-	<div class="span-2"><p>~ 19:00 Uhr</p></div>
-	<div class="span-13 last">
-		<p>
-			<strong>App-Development with Xamarin</strong><br/>
-			Sylwester Wieczorkowski, Leaware
-		</p>
-		<p>
-			<strong>Consuming RESTful APIs with Swagger</strong><br/>
-			Sylwester Wieczorkowski, Leaware
-		</p>
-	</div>
-	<div class="span-2">danach</div>
-	<div class="span-13 last">Diskutieren, austauschen, Bier trinken, etc.</div>
-</div>
-<div class="clearfix"></div><br/>
+The first talk will give you an **introduction into Xamarin** and the pros and cons of it, and why Leaware develops all their apps with it.
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p><br/>
+The talk will also compare the different front technolgies Xamarin.Forms vs Xamarin Native vs MvvmCross, and how to choose the right approach for each project.
 
-{% include _location_hackinstitute.html %}
+What are the challenges in long-term development of apps for different platforms, with the context of a **Shared codebase, User Experience** and Maintenance/documentation.
+
+### Consuming RESTful APIs with Swagger
+
+The most apps today are based on massiv API usage. The second talk will give an introduction into Swagger
+and how to keep your mobile data access layer up-to-date in no time.
+
+It shows also how to speed up integration of mobile app with the backend?
+
+### Über Leaware
+
+Thanks to <a href="https://leaware.com/en">Leaware</a> for supporting us and both
+talks of this evening.
+Leaware is a international (Poland, Germany and USA) app agency.
+
+<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://leaware.com/en"><img src="/static/images/leaware.svg" alt="Leaware" width="294" height="50" /></a>
+</p>
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>**Opening &amp; come together**</td>
+  </tr>
+  <tr>
+    <td>~ 19:00 Uhr</td>
+    <td>
+      <p>
+        **App-Development with Xamarin**<br/>
+        Sylwester Wieczorkowski, Leaware
+      </p>
+      <p>
+        **Consuming RESTful APIs with Swagger**<br/>
+        Sylwester Wieczorkowski, Leaware
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_hackinstitute/>

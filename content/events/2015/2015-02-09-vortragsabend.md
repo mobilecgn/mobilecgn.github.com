@@ -1,7 +1,7 @@
 ---
-layout: post
+type: event
 title: "Vortragsabend: Material Design"
-categories: ["frontpage"]
+
 frontpage_line1: Montag, 9. Februar
 frontpage_line2: "Material Design"
 frontpage_line3: "Vortragsabend"
@@ -9,44 +9,47 @@ frontpage_line4: Wir laden zum nächsten Themenabend in den Coworking Space Colo
 themen: ["Playing with Material Design", "Apple Watch &amp; Android Wear UX"]
 all_events_title: "Vortragsabend: Material Design"
 all_events_text: Mo. 8. Januar 2015 im Coworking Cologne
-doodle: https://doodle.com/z4p899umvwuzrgt3
-xing: https://www.xing.com/events/-1506195
-meetup: https://www.meetup.com/mobilecgn/events/220320552/
-#nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
-#hackenin: https://hacken.in/events/105-mobile-cologne/dates/3173
+
+rvspLinks:
+  doodle: https://doodle.com/z4p899umvwuzrgt3
+  xing: https://www.xing.com/events/-1506195
+  meetup: https://www.meetup.com/mobilecgn/events/220320552/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/3173
 ---
 
-<div class="container span-14">
-<p>
-	Wir laden zum nächsten Themenabend am Montag, den 9. Februar ab 19 Uhr
-	in den Coworking Space Cologne ein um uns dem Thema Material Design zu widmen.
-</p>
-<p>
-	Pascal Welsch (<a href="https://twitter.com/passsy">@passsy</a>)
-	arbeitet als Android-Entwickler bei <a href="https://www.grandcentrix.net/">grandcentrix</a>
-	berichtet ausführlich von seinen Experimenten und Erfahrungen rund um
-	das mit Android Lollipop eingeführte Material Design.
 
-	Dies wird unter anderem die Themen Schatten/Z-Index, Activity Transitions,
-	Ripples (and styles) sowie RecyclerView umfassen.
-</p>
-<div class="clearfix"></div>
+Wir laden zum nächsten Themenabend am Montag, den 9. Februar ab 19 Uhr
+in den Coworking Space Cologne ein um uns dem Thema Material Design zu widmen.
 
-<h3>Agenda</h3>
-<div class="container span-15 last clear">
-	<div class="span-2">19:00 Uhr</div>
-	<div class="span-13 last">Opening &amp; come together</div>
-	<div class="span-2">19:15 Uhr</div>
-	<div class="span-13 last"><strong>Playing with Material Design von Pascal Welsch, grandcentrix</strong></div>
-	<div class="span-2">danach</div>
-	<div class="span-13 last">Diskutieren, austauschen, Bier trinken, etc.</div>
-</div>
-<div class="clearfix"></div><br/>
+Pascal Welsch (<a href="https://twitter.com/passsy">@passsy</a>)
+arbeitet als Android-Entwickler bei <a href="https://www.grandcentrix.net/">grandcentrix</a>
+berichtet ausführlich von seinen Experimenten und Erfahrungen rund um
+das mit Android Lollipop eingeführte Material Design.
 
-<h3>Anmeldung</h3>
-<p>
-	Bitte meldet euch für eine grobe Planung an:&nbsp;
-	{% include _content_register.html %}
-</p>
+Dies wird unter anderem die Themen Schatten/Z-Index, Activity Transitions,
+Ripples (and styles) sowie RecyclerView umfassen.
 
-{% include _location_bottfabrik.html %}
+### Agenda
+
+<table>
+  <tr>
+    <td>19:00 Uhr</td>
+    <td>Opening &amp; come together</td>
+  </tr>
+  <tr>
+    <td>19:15 Uhr</td>
+    <td>**Playing with Material Design von Pascal Welsch, grandcentrix**</td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_bottfabrik/>

@@ -1,0 +1,92 @@
+---
+type: event
+title: "Vortragsabend: Apps richtig lokalisieren und Übersetzen + Status quo react-native"
+
+frontpage_line1: "Vortragsabend:"
+frontpage_line2: "Do, 18. Februar"
+frontpage_line3: "bei MIAMED"
+frontpage_line4: "<strong>Vortragsabend: Apps lokalisieren und Status quo react-native</strong><br/>Wir freuen uns euch zum ersten Vortragsabend 2016 einzuladen und möchten uns mit den Themen App Lokalisierung und Übersetzung sowie den Integrationsmöglichkeiten von react-native beschäftigen."
+themen: ["Android und iPhone Apps lokalisieren und Übersetzen", "Status quo react-native und Integrationsmöglichkeiten für native Entwickler"]
+all_events_title: "Vortragsabend: Apps lokalisieren + Status quo react-native"
+all_events_text: Do. 18. Februar 2016 bei MIAMED
+
+rvspLinks:
+  doodle: https://doodle.com/poll/y62y6e59qyz768xc
+  xing: https://www.xing.com/events/-1653233
+  meetup: https://www.meetup.com/mobilecgn/events/228802361/
+  #nerdhub: https://www.nerdhub.de/events/105-mobile-cologne/dates/29471
+  #hackenin: https://hacken.in/events/105-mobile-cologne/dates/34467
+---
+
+Wir möchten euch zu unserer Veranstaltungsreihe am Donnerstag,
+den 18. Februar zu <a href="https://www.miamed.de/">MIAMED</a> einladen.
+Wir freuen uns auf einen Abend mit spannenden Vorträgen:
+
+### Android und iPhone Apps lokalisieren und Übersetzen
+
+Immer mehr Apps sollen "localized and translated" werden.
+Christian Stahl hat sich mit dem Thema beschäftigt und berichtet
+von seinen Erfahrungen mit gettext, getString
+sowie die Anwendung von NSLocalizedStrings, genstrings
+und ibtool in der Praxis, die ihn dazu gebracht hat,
+AppTranslate zu entwickeln.<br/>
+Es soll nicht nur ein Vortrag sein, sondern auch ein Erfahrungsaustausch aller Teilnehmer.
+
+### Status quo react-native und Integrationsmöglichkeiten für native Entwickler
+
+Nachdem wir bereits im <a href="/2015-04-23-vortragsabend.html">April 2015</a>
+eine Einführung in react-native hatten, wird es Zeit sich den aktuellen Stand
+des Facebook-Frameworks anzuschauen. Neben der iOS Entwicklung ist nun auch
+eine parallele Entwicklung einer nativen UI für iOS und Android mit JavaScript möglich.<br/>
+Christoph Jerolimov gibt einen erneuten Einblick in die Thematik und
+zeigt Möglichkeiten für eine Kommunikation zwischen react-native und der
+nativen Welt von Android und iOS.
+
+### Über MIAMED
+
+Wir danken unserem ersten Gastgeber 2016 <a href="https://www.miamed.de/">MIAMED</a>.
+MIAMED entwickelt seit 2012 Apps für Android und iPhone in Köln und Berlin,
+welche Mediziner in ihrer gesamten Laufbahn begleiten.
+Im Studium, während des Examens und im Berufsleben.
+Das Hauptprodukt, die Lernplattform AMBOSS, wird mittlerweile von
+über 75.000 Medizinstudenten und Ärzten genutzt.
+
+<p style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://www.miamed.de/"><img src="/static/images/miamed.jpg" alt="MIAMED" width="274" height="75" /></a>
+</p>
+
+### Agenda
+
+<table>
+  <tr>
+    <td>~ 18:00 Uhr</td>
+    <td>Opening &amp; come together mit Speis und Trank</td>
+  </tr>
+  <tr>
+    <td>~ 18:30 Uhr</td>
+    <td>
+      <p>
+        **Android und iPhone Apps lokalisieren und Übersetzen**<br/>
+        Christian Stahl, Think mobile
+      </p>
+      <p>
+        Kurze Pause mit Speis und Trank
+      </p>
+      <p>
+        **Status quo react-native und Integrationsmöglichkeiten für native Entwickler**<br/>
+        Christoph Jerolimov
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>danach</td>
+    <td>Diskutieren, austauschen, Bier trinken, etc.</td>
+  </tr>
+</table>
+
+### Anmeldung
+
+Bitte meldet euch für eine grobe Planung an:&nbsp;
+<RegisterLinks />
+
+<Location_miamed/>

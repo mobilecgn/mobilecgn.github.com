@@ -1,0 +1,36 @@
+---
+type: event
+title: "Interactive Cologne 2013"
+all_events_title: Interactive Cologne
+all_events_text: 17. - 23. Juni 2013
+---
+
+<a href="https://interactive-cologne.com/" target="_blank">INTERACTIVE COLOGNE</a>
+ist ein einwöchiges Festival vom 17. - 23. Juni 2013.
+Wir unterstützen diesen Veranstaltung und möchten euch zu dieser Developer-
+&amp; Hacker-Veranstaltung einladen. Insbesondere zum Hackathon welcher am
+Dienstag und Mittwoch stattfindet.
+
+Das Event ist für talentierte Hacker und Designer gedacht, die sich treffen
+um ihre eigenen oder andere Projekte in Fahrt zu bringen, zu verfeinern,
+bei der Entwicklung zu kooperieren oder nur zu experimentieren.
+
+So <a href="https://www.grandcentrix.net/2013/06/10/blog/events/an-ipad-gem-puzzle-for-interactive-cologne-2013/" target="_blank">ruft etwa GrandCentrix auf</a>
+etwas mit ihrer 5x5 iPad Matrix zu machen.
+
+Weitere App Ideen findet ihr im <a href="https://github.com/InteractiveCologne/warmup/wiki" target="_blank">warmup-Wiki</a>. Wer mag kann natürlich auch
+eure eigene Vorschläge einreichen und am Dienstag in einem Pitch andere
+versuchen zu begeistern mitzumachen.
+
+Gleichzeitig zum <a href="https://interactive-cologne.com/hack-n-tech.html" target="_blank">Hackathon</a> findet in der Trinitatiskirche auch die <a href="https://interactive-cologne.com/startup.html"> target="_blank">Startup &amp; Biz -Konferenz</a> statt.
+Es bietet Startups, Investoren und Unternehmern Raum,
+um sich in einer kreativen Atmosphäre zu treffen und heiße Themen zu
+diskutieren sowie sich mit anderen Profis aus der Technologiebranche
+zu vernetzen, die die gleichen Leidenschaften und Interessen teilen. 
+
+Weitere Infos und einen <a href="https://interactive-cologne.com/schedule/" target="_blank">Ablaufplan</a> des Events findet ihr auf: <a href="https://interactive-cologne.com/" target="_blank">interactive-cologne.com</a>
+
+Aus Supporter der Interactive Cologne bietet euch die mobile.cologne
+**kostenlose Tickets für den Hackathon sowie die Startup-Konferenz!**
+Bitte meldet euch kurz bei uns um einen Voucher zu erhalten.
+Wenn ihr weitere Fragen habt zögert nicht uns zu kontaktieren.
